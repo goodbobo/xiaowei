@@ -1,0 +1,22 @@
+{
+    "status": "0",
+    "message": null,
+    "data": [{
+        "title": "保洁",
+        "url": "http://www.ziroom.com/ziroomer/?_a=detail&id=50000003",
+        "pic": "http://pic.ziroom.com/static/upload/cms/2015/10/f936ceabf5fc072299ccefaad03e5812.jpg",
+        "pic_sort": "1"
+    },
+    {
+        "title": "维修",
+        "url": "http://www.ziroom.com/ziroomer/?_a=detail&id=50000001",
+        "pic": "http://pic.ziroom.com/static/upload/cms/2015/10/cb4cbc30d1adce1f1aa6cec4b76c9838.jpg",
+        "pic_sort": "2"
+    },
+    {
+        "title": "搬家",
+        "url": "http://www.ziroom.com/ziroomer/?_a=detail&id=50000002",
+        "pic": "http://pic.ziroom.com/static/upload/cms/2015/10/d5946bcbb02f4fdfef2144fad2eba726.jpg",
+        "pic_sort": "3"
+    }]
+}

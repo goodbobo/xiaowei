@@ -1,0 +1,74 @@
+.index_header{
+	display: none;
+}
+.life{
+	background: #fff;
+}
+/*头部*/
+.life_header{
+	border-bottom: 1px solid #bbb;
+}
+.life_header_img{
+	padding: 3% 0;
+}
+/*栏目标题*/
+.life_diary{
+    background: url(../../images/zrlife1.png) no-repeat;
+    background-position: 0px -262px;
+    font-size: 1.3rem;
+    color: #fff;
+    padding-left: 6%;
+    margin: 4% 0;
+    margin-left: 4%;
+}
+/*列表*/
+.life_text_list{
+	padding: 0 1%;
+}
+.life_text{
+	padding: 5% 5%;
+	border-bottom:  1px dotted #bbb;
+	border-left:  1px dotted #bbb;
+	border-right:  1px dotted #bbb;
+}
+.life_list_img{
+	width: 100%;
+}
+.life_list_h3_a{
+	font-size: 1.3rem;
+}
+.life_time{
+	padding: 3% 0;
+    color: #bbb;
+    font-size: 0.5rem;
+}
+.life_list_book{
+	padding: 3% 0;
+    color: #bbb;
+    font-size: 0.5rem;
+}
+.life_list_p_a{
+	float: right;
+	color: #0099cc;
+}
+/*翻页工具*/
+.life_page{
+	text-align: center;
+	padding: 5% 0;
+}
+.life_page>a{
+	display: inline-block;
+	width: 30px;
+	height: 26px;
+	border: 1px solid #bbb;
+}
+.life_page>.life_page_up{
+	width: 13%;
+	display: none;
+}
+.life_page>.life_page_down{
+	width: 13%;
+}
+.life_pages_a{
+	background: #ffa000;
+}

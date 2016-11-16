@@ -1,0 +1,158 @@
+header{
+	display: none;
+}
+.trust_header{
+	height: 4.5rem;
+	width: 100%;
+	border-bottom: solid 1px #ddd;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.trust_header h2{
+	text-align: center;
+	font-size: 1.8rem;
+	font-weight: 100;
+	line-height: 4.5rem;
+}
+#go_back{
+	width:4.5rem;
+	height: 4.5rem;
+    background: url(../../images/underZiroom.png) no-repeat 1.3rem .4rem;
+    background-size: 127%;
+	display: inline-block;
+}
+#go_home{
+	width:4.5rem;
+	height: 4.5rem;
+	background: url(../../images/underZiroom.png) no-repeat 1.2rem -4.4rem;
+    background-size: 127%;
+	display: inline-block;
+}
+.trust_img{
+	width: 100%;
+	height:17.05rem;
+	position: relative;
+	background: url(../../images/trust1.jpg) no-repeat;
+}
+.trust_img img{
+	position: absolute;
+	margin-left: 1.7rem;
+	top: 1.9rem;
+}
+.trust_word{
+	height: 5.6rem;
+	width: 100%;
+	background-color: #fff;
+	text-align: center;
+	line-height: 5.6rem;
+}
+.trust_word p{
+	font-size: 1.5rem;
+	color: #4c4c4b;
+}
+.trust_word p span{
+	display: inline-block;
+	width: 1.25rem;
+	height: 2rem;
+	color: #fff;
+	font-size: 1.4rem;
+	background-color: #4c4c4b;
+    line-height: 2rem;
+}
+.trust_Top{
+	height: 3.75rem;
+	width: 100%;
+	position: relative;
+}
+.trust_Top p{
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	color: #666;
+	height: 3.5rem;
+	margin-left: 1.1rem;
+	padding: 1.1rem;
+	border-bottom: solid 1px #e7e7e7;
+}
+.trust_Top span{
+	position: absolute;
+	width: .3rem;
+	height: 1.5rem;
+	background-color: #e1c86e;
+	display: inline-block;
+	left: 1.1rem;
+	top: 1.1rem;
+}
+.trust_face{
+	width: 100%;
+	background-color: #fff;
+	margin-top: 1rem;
+}
+.trust_faceMain{
+	margin-top: 1.2rem;
+}
+.trust_faceMain img{
+	margin: 0 auto;
+}
+.trust_footer{
+	width: 100%;
+	background-color: #fff;
+	margin-top: 1rem;
+	margin-bottom:4.5rem;
+}
+.trust_list{
+	width: 32rem;
+	padding:1.15rem 1.15rem 1px 1.15rem;
+	box-sizing: border-box;
+}
+.time1{
+	background: url(../../images/trust11.png) no-repeat 19rem;	
+}
+.time2{
+	background: url(../../images/trust22.png) no-repeat 18rem;	
+}
+.trust_two{
+	width: 100%;
+	height: 12.95rem;
+	margin-bottom: 1.15rem;
+	border: solid 1px #e6d8a8;
+	background-color: rgb(251, 247, 235);
+	padding:1.75rem 0 0 1.3rem;
+	box-sizing:border-box;
+	color: #666;
+}
+.trust_two dl dt{
+	font-size: 1.5rem;
+	padding-bottom: .75rem;
+	line-height: 1.5rem;
+}
+.trust_two dl li{
+	line-height: 2.2rem;
+	font-size: 1.1rem;
+}
+.owner_footer{
+	height: 4.5rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	bottom: 0;
+	z-index: 5;
+}
+.owner_footer a{
+	width: 50%;
+	text-align: center;
+	line-height: 4.5rem;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: #fff;
+}
+.owner_footer a:first-child{
+	background-color: #b99f48;
+}
+.owner_footer a:last-child{
+	background-color: #666666;
+}
+footer{
+	display: none;
+}

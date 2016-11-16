@@ -1,0 +1,206 @@
+<div class="home">
+<!-- 图片轮播 -->
+	<div class="swipe_all">
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide" ng-repeat='x in data'><img ng-src="{{x.img}}"></div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>
+		</div>
+	</div>
+<!-- 导航图标 -->
+	<div class="home_meun">
+		<ul>
+			<li class="home_meun_li" ui-sref="joinRent">
+				<a class="home_meun_li_a" >
+					<img src="images/home1.png">
+				</a>
+				<p>合租</p>
+			</li>
+			<li class="home_meun_li" ui-sref="holeRent">
+				<a class="home_meun_li_a"  >
+					<img src="images/home2.png">
+				</a>
+				<p>整租</p>
+			</li>
+			<li class="home_meun_li" ui-sref="mouthRent">
+				<a  class="home_meun_li_a">
+					<img src="images/home3.png">
+				</a>
+				<p>月租</p>
+			</li>
+			<li class="home_meun_li" ui-sref="apartment">
+				<a class="home_meun_li_a">
+					<img src="images/home4.png">
+				</a>
+				<p>自如寓</p>
+			</li>
+			<li class="home_meun_li" ui-sref="owner">
+				<a class="home_meun_li_a">
+					<img src="images/home5.jpg">
+				</a>
+				<p>业主</p>
+			</li>
+			<li class="home_meun_li" ui-sref="service">
+				<a class="home_meun_li_a">
+					<img src="images/home6.png">
+				</a>
+				<p>服务</p>
+			</li>
+			<li class="home_meun_li" ui-sref="life">
+				<a class="home_meun_li_a">
+					<img src="images/home7.png">
+				</a>
+				<p>生活</p>
+			</li>
+			<li class="home_meun_li home_menu_li_down" ui-sref="download">
+				<a class="home_meun_li_a">
+					<img src="images/home8.png">
+				</a>
+				<p>下载APP</p>
+			</li>
+		</ul>
+	</div>
+<!-- 下载条 -->
+	<div class="home_down"  ui-sref="download">
+		<span class="home_down_after"></span>
+		<span class="home_down_span">下载自如APP，立即签约好房源</span>
+	</div>
+<!-- 自如栏目 -->
+	<main class="hmoe_main">
+		<!-- 自如友家 -->
+		<div class="ziroom_firend">
+			<h2 class="home_firend_name">
+				<span class="firend_name_span">自如友家</span>
+				<a class="firend_more" ui-sref="joinRent">更多<span class="firend_more_right"></span></a>
+			</h2>
+			<p class="firend_img">
+				<img src="images/ziroomfirend.jpeg">
+			</p>
+			<div class="firend_bottom">
+				<h2 class="firend_monery">
+					<span class="monery_name">望园东里2居室-南卧</span>
+					<span class="monery_yes2 monery_yes">/月</span>
+					<span class="monery_yes1 monery_yes">¥2960</span>
+				</h2>
+				<p class="firend_address">[丰台区七里庄]9号线七里庄</p>
+			</div>
+		</div>
+		<!-- 自如整租 -->
+		<div class="ziroom_firend">
+			<h2 class="home_firend_name">
+				<span class="firend_name_span together">自如整租</span>
+				<a class="firend_more" ui-sref="holeRent">更多<span class="firend_more_right"></span></a>
+			</h2>
+			<p class="firend_img">
+				<img src="images/ziruzhengzu.jpg">
+			</p>
+			<div class="firend_bottom">
+				<h2 class="firend_monery">
+					<span class="monery_name">炫立方1居室-东</span>
+					<span class="monery_yes2 monery_yes">/月</span>
+					<span class="monery_yes1 monery_yes">¥3390</span>
+				</h2>
+				<p class="firend_address">[顺义 顺义其它]15号线南法信</p>
+			</div>
+		</div>
+		<!-- 自如寓 -->
+		<div class="ziroom_firend">
+			<h2 class="home_firend_name">
+				<span class="firend_name_span apartment">自如寓</span>
+				<a class="firend_more"  ui-sref="apartment">更多<span class="firend_more_right"></span></a>
+			</h2>
+			<div class="firend_img">
+				<div class="swiper-container">
+				    <div class="swiper-wrapper">
+				    	<div class="swiper-slide" ng-repeat='y in data1'><img ng-src="{{y.img}}"></div>  
+				    </div>
+				    <!-- 如果需要分页器 -->
+				    <div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</div>
+		<!-- 自如服务 -->
+		<div class="ziroom_firend">
+			<h2 class="home_firend_name">
+				<span class="firend_name_span sever">自如服务</span>
+				<a class="firend_more"  ui-sref="service">更多<span class="firend_more_right"></span></a>
+			</h2>
+			<div class="firend_img">
+				<div class="swiper-container">
+				    <div class="swiper-wrapper">
+				    	<div class="swiper-slide" ng-repeat='z in data2'><img ng-src="{{z.img}}"></div>  
+				    </div>
+				    <!-- 如果需要分页器 -->
+				    <div class="swiper-pagination"></div>
+				</div>
+			</div>
+			<ul class="ziroom_ul_fuwu">
+				<li class="fuwu" ui-sref="smallMove">
+					<a class="ziroom_fuwu">
+						<img src="images/fuwucart.png">
+					</a>
+					<p>搬家</p>
+				</li>
+				<li class="fuwu" ui-sref="dailyClear">
+					<a class="ziroom_fuwu">
+						<img src="images/fuwuPA.png">
+					</a>
+					<p>保洁</p>
+				</li>
+				<li class="fuwu" ui-sref="ziruRepair">
+					<a class="ziroom_fuwu">
+						<img src="images/fuwubaojie.png">
+					</a>
+					<p>维修</p>
+				</li>
+			</ul>
+		</div>
+		<!-- 自如生活 -->
+		<div class="ziroom_firend">
+			<h2 class="home_firend_name">
+				<span class="firend_name_span sever">自如生活</span>
+				<a class="firend_more"  ui-sref="life">更多<span class="firend_more_right"></span></a>
+			</h2>
+			<div class="ziroom_firend_list">
+				<div class="swiper-container">
+				    <div class="swiper-wrapper">
+				        <div class="swiper-slide" ng-repeat='m in data3'>
+				        	<div class="list">
+								<img ng-src="{{m.img}}" class="list_img">
+								<div class="list_text">						
+									<h2 class="list_h2">{{m.h1}}</h2>
+									<p class="list_p1">{{m.p}}</p>
+									<p class="list_p2">{{m.time}}</p>
+								</div>
+							</div>
+				        </div>
+				    </div>
+				    <!-- 如果需要分页器 -->
+				    <div class="swiper-pagination"></div>
+				</div>
+			</div>
+			<ul class="ziroom_ul_fuwu">
+				<li class="fuwu" ui-sref="life" ng-click="toggle();z='z'">
+					<a class="ziroom_fuwu">
+						<img src="images/renwuzhi.png">
+					</a>
+					<p>人物志</p>
+				</li>
+				<li class="fuwu" ui-sref="life" ng-hide="myVar" >
+					<a class="ziroom_fuwu">
+						<img src="images/zuqiu.png">
+					</a>
+					<p>社区活动</p>
+				</li>
+				<li class="fuwu" ui-sref="life">
+					<a class="ziroom_fuwu">
+						<img src="images/zirunews.png">
+					</a>
+					<p ng-class="z">自如NEWS</p>
+				</li>
+			</ul>
+		</div>
+	</main>
+</div>

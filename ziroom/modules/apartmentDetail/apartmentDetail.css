@@ -1,0 +1,226 @@
+.index_header{
+	display: none;
+}
+footer{
+	display: none;
+}
+#ziroomDetail{
+	height: auto;
+	
+}
+#ziroomDetail header{
+	height: 3.35rem;
+	display: flex;
+	padding: 0.5rem;
+	font-size: 1.5rem;
+	justify-content:space-between;
+	align-items:center;
+	background: #fff;
+}
+
+#ziroomDetail header img{
+	height: 1.2rem;
+	width: 1.8rem;
+
+}
+#ziroomDetail header i{
+	width: 1.1rem;
+	height: 2rem;
+	background: url(../../images/common.png);
+	background-size: 16rem 20rem;
+	background-position:-5.8rem 0;
+}
+#ziroomDetail .apartmentDetail{
+	height: 20rem;
+}
+#ziroomDetail .apartmentDetail img{
+	height: 20rem;
+	width: 100%;
+}
+#ziroomDetail .intro{
+	padding:1rem 0.5rem 1.25rem;
+	background: #fff;
+	border-bottom:1px solid #bbb;
+
+}
+#ziroomDetail .intro li:first-of-type{
+	color:#111;
+	font-size: 1.2rem;
+	line-height: 2.6rem;
+	margin-top: -0.6rem;
+}
+#ziroomDetail .intro li:nth-of-type(2){
+	color:#bbb;
+	line-height: 1rem;
+	font-size: 1.1rem;
+}
+#ziroomDetail .submit {
+    display: inline-block;
+    background: #d7c28b;
+    color: #fff;
+    width: 48.5%;
+    font-size: 1.2rem;
+    border-radius: 0.35rem;
+    height: 2.6rem;
+    line-height: 2.8rem;
+    text-align: center;
+    margin-top: 0.8rem;
+}
+#ziroomDetail .submitBtn{
+	border:0;
+	margin:0.5rem 0 0 0.4rem ;
+}
+#ziroomDetail .b_copy{
+	padding: 0.75rem;
+    height: 5.5rem;
+    background: rgb(75, 75, 75);
+    color: #fff;
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+    margin-top: 1.5rem;
+}
+#ziroomDetail .b_copy img{
+	display: inline-block;
+	height: 1.2rem;
+    width: 1.2rem;
+    margin: 0 4px;
+    vertical-align: middle;
+}
+#ziroomDetail .top_icon{
+	width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    right: 0.5rem;
+    bottom: 5.5rem;
+    z-index: 99;
+}
+#ziroomDetail .top_icon:after{
+	width: 2rem;
+    height: 2rem;
+    content: "";
+	display:inline-block;
+    background: url(../../images/up.gif) no-repeat center;
+    background-size: 50%;
+
+}
+.ui-tab {
+	margin-top:1rem;
+	border-top:1px solid #bbb;
+	border-bottom:1px solid #bbb;
+	background: #fff;
+}
+.ui-tab .tab-title{
+	display: flex;
+	align-item:center;
+	line-height: 2.25rem;
+}
+.ui-tab .tab-title li{
+	flex: 1;
+    text-align: center;
+    color: #bbb;
+    font-size: 1.2rem;
+    height: 3.25rem;
+    line-height: 3.45rem;
+    border-bottom: 3px solid #fff;
+}
+.ui-tab .tab-title li:hover{
+	border-bottom: 3px solid orange;
+}
+.tab-watch{
+	padding:1rem 0.5rem;
+	color:#bbb;
+}
+.tab-watch h2{
+	font-weight: 400;
+	color:#111;
+	font-size: 1.1rem;
+}
+.tab-watch_1,.tab-watch_2{
+	display: flex;
+	padding:0.5rem;
+	position: relative;
+}
+.overview-img img{
+	margin:0 auto;
+}
+.tab-watch img{
+	width: 6rem;
+	height: 4.5rem;
+}
+.tab-intro{
+	margin: 0 0 0 1.5rem;
+	line-height: 1.5rem;
+}
+.tab-watch-rightRow{
+	width:1rem;
+	height: 1.8rem;
+	background: url(../../images/common.png);
+	background-position: 0 -0.5rem;
+	position: absolute;
+	right:0;
+	top:28%;
+}
+.tab-overview{
+	padding:0.5rem;
+}
+.ui-nowrap-multi{
+	display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    color:#111;
+}
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #999;
+    margin-left: 94.5%;
+    margin-top: -15px;
+    margin-bottom: 10px;
+}
+.tab-overview ul{
+	padding:1rem;
+}
+.overview-img,.overview-font{
+	text-align: center;
+	margin:0 auto;
+}
+.overview-map{
+	display: block;
+	height: 2.1rem;
+	text-align: center;
+	line-height: 2.1rem;
+	font-size: 0.8rem;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	background: #fff;
+
+}
+/*****  设备控制 ******/
+.overview-device{
+	display: flex;
+    padding: 0 1rem 1rem 1rem;
+    flex-flow: wrap;
+    justify-content: space-between;
+    background: #fff;
+}
+.overview-device  li{
+	width: 25%;
+	text-align: center;
+}
+.device-img{
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+	border: 1px solid #ddd;
+	margin: 1rem auto 0.5rem;
+}

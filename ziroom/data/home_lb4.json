@@ -1,0 +1,19 @@
+{
+    "info": "ok",
+    "data3": [
+        {
+           "id":"1",
+           "img":"http://pic.ziroom.com/static/upload/cms/2016/10/b0e504c13aa5bd5a811066c5c884b963.jpg",
+           "h1":"自如生活节创业专场",
+           "p":"北京第二场，和Someet聊聊攒局那些事",
+           "time":"2016-10-17"
+        },
+        {
+           "id":"2",
+           "img":"http://pic.ziroom.com/static/upload/cms/2016/06/d43e00936a15b1dfcfa7db7f37bf46a2.jpg",
+           "h1":"自如课代表",
+           "p":"一言不合就跳舞",
+           "time":"2016-06-25"
+        }
+    ]
+}

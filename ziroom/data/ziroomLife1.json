@@ -1,0 +1,88 @@
+{
+    "base_resp": {
+        "ret": 0
+    },
+    "appmsg_list": [
+        {
+            "aid": "401560946_3",
+            "title": "他们需层层通关，才能服务您的房屋（上篇）",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY081620506/BJZRGY081620506_03/images/v400x300_20161108210736315_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=401560946&idx=3&sn=c310be562baa18b8ceb8a371e787b847&scene=19#wechat_redirect",
+            "digest": "您可知，每一位自如人，都需重重通关，练就一身本领，才能服务您的房屋。",
+            "appmsgid": 401560946,
+            "itemidx": 3,
+            "type": 9
+        },
+        {
+            "aid": "403351889_2",
+            "title": "我的自如管家换了？不用担心，登录微信即可查看您的管家！",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY081614886/BJZRGY081614886_05/images/v400x300_20161104215033096_F.jpg",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=403351889&idx=2&sn=651367e832a76f51ad2e3c7a18412abe&scene=19#wechat_redirect",
+            "digest": "自如承诺尽可能不随意更替管家，如果更替管家，一定第一时间通知您。",
+            "appmsgid": 403351889,
+            "itemidx": 2,
+            "type": 9
+        },
+        {
+            "aid": "403465037_2",
+            "title": "您给您的管家打几分呢？",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY031619671/BJZRGY031619671_01/images/v400x300_20161109211728228_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=403465037&idx=2&sn=985d1aeb011cdb5af7b98e4eaad0f765&scene=19#wechat_redirect",
+            "digest": "在房屋配置装修完成之后一个月内，您便可以直接给您的管家打分评价！",
+            "appmsgid": 403465037,
+            "itemidx": 2,
+            "type": 9
+        },
+        {
+            "aid": "400093816_1",
+            "title": "O2O租房所释放的想象——自如CEO如是说",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY081614886/BJZRGY081614886_01/images/v400x300_20161104214902107_F.jpg",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=400093816&idx=1&sn=cc5446a0ad5bf177347c537681c6e204&scene=19#wechat_redirect",
+            "digest": "无论外界如何变幻，熊林相信、自如相信，来自任何地方、有着任何出身的年轻人的努力、奋斗、梦想都应该得到尊重，如果自如只能做一小点，我们就从租房开始。",
+            "appmsgid": 400093816,
+            "itemidx": 1,
+            "type": 9
+        },
+        {
+            "aid": "401043984_3",
+            "title": "自如产品参展海外置业讲坛",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY031619671/BJZRGY031619671_05/images/v400x300_20161109211831366_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=401043984&idx=3&sn=3e416370440d2bb5ed9c311d8a688cd8&scene=19#wechat_redirect",
+            "digest": "点击上方“自如管家”了解更多自如信息一直以来，自如在工作中发现不少业主都有海外置业的打算，但限于语言、信息等",
+            "appmsgid": 401043984,
+            "itemidx": 3,
+            "type": 9
+        },
+        {
+            "aid": "401043984_1",
+            "title": "【业主福利】海外置业讲座——旧金山专场",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY081620191/BJZRGY081620191_05/images/v400x300_20161101201413729_F.jpg",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=401043984&idx=1&sn=184b062546579a4fc74211e62df13bef&scene=19#wechat_redirect",
+            "digest": "您可曾想过在硅谷的后花园购置一套房屋，既与山风绿树为伴，又不落伍于前沿科技与商业 。",
+            "appmsgid": 401043984,
+            "itemidx": 1,
+            "type": 9
+        },
+        {
+            "aid": "402288115_4",
+            "title": "自如线上灯谜谜底大揭晓",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY031617274/BJZRGY031617274_05/images/v400x300_20161103223252222_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=402288115&idx=4&sn=b67bf60f9a1091c1aeb077c0e1718439&scene=19#wechat_redirect",
+            "digest": "还记得自如的线上灯谜节会吗？今天来公布答案啦!",
+            "appmsgid": 402288115,
+            "itemidx": 4,
+            "type": 9
+        },
+        {
+            "aid": "401934232_1",
+            "title": "纳言 | 自如期待您的诤语建言",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY031619826/BJZRGY031619826_05/images/v400x300_20161030200011219_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=401934232&idx=1&sn=a7ca32bf43a4d025b2af4acb83af486a&scene=19#wechat_redirect",
+            "digest": "您的诤语建言，我们洗耳恭听。",
+            "appmsgid": 401934232,
+            "itemidx": 1,
+            "type": 9
+        }
+    ],
+    "has_more": 0
+}

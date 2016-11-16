@@ -1,0 +1,88 @@
+{
+    "base_resp": {
+        "ret": 0
+    },
+    "appmsg_list": [
+        {
+            "aid": "403582511_2",
+            "title": "四月，你好。别让病菌来敲门",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGZ091621650/BJZRGZ091621650_02/images/v400x300_20161107151708972.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=403582511&idx=2&sn=1767760b20d42dc53d41cddd9a22785b&scene=19#wechat_redirect",
+            "digest": "终于熬到人间四月，阳光未至毒辣，冷风不再酷寒。但是沐浴在4月和煦的春光下，却感觉不到期待已久的温暖。",
+            "appmsgid": 403582511,
+            "itemidx": 2,
+            "type": 9
+        },
+        {
+            "aid": "403465037_3",
+            "title": "窍门|三个小技巧解决排水道被堵问题",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGZ071619340/BJZRGZ071619340_01/images/v400x300_20161021212736316.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=403465037&idx=3&sn=a33544ddab42c5c61dda88d6ea67dbac&scene=19#wechat_redirect",
+            "digest": "自如管家就为大家提供一些维修小窍门，为您的生活再添一份自如。",
+            "appmsgid": 403465037,
+            "itemidx": 3,
+            "type": 9
+        },
+        {
+            "aid": "403351889_3",
+            "title": "为您的房屋添一抹绚烂春色",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGZ091617294/BJZRGZ091617294_01/images/v400x300_20161104204115969_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=403351889&idx=3&sn=9c1603c73ea871ed4f0d0986dda4a7eb&scene=19#wechat_redirect",
+            "digest": "「草树知春不久归，百般红紫斗芳菲」春天万物复苏、姹紫嫣红，您是否也蠢蠢欲动，觉得应该做点什么不一样的事情。例",
+            "appmsgid": 403351889,
+            "itemidx": 3,
+            "type": 9
+        },
+        {
+            "aid": "403184195_2",
+            "title": "家长必读：家有熊孩子太折腾？你要学会这几招",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGZ091619817/BJZRGZ091619817_01/images/v400x300_20161106211430587_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=403184195&idx=2&sn=cb2ea19bea4c523b5d19ec07bd00a34a&scene=19#wechat_redirect",
+            "digest": "比起收拾的技巧、整理的方式，“治家”更需要的，是一颗懂得关爱、善于理解家人的心。",
+            "appmsgid": 403184195,
+            "itemidx": 2,
+            "type": 9
+        },
+        {
+            "aid": "402118248_2",
+            "title": "警惕！远离节后综合症，3大绝招帮你迅速恢复元气！",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGZ091616972/BJZRGZ091616972_01/images/v400x300_20161016220654751.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=402118248&idx=2&sn=ef511b2be448f1d0239e935e5394d752&scene=19#wechat_redirect",
+            "digest": "食欲不振，睡眠紊乱，工作低效…“节后综合症”怎么破？自如管家教你3大绝招，助你调整身心，迅速恢复满满元气！",
+            "appmsgid": 402118248,
+            "itemidx": 2,
+            "type": 9
+        },
+        {
+            "aid": "402118248_2",
+            "title": "警惕！远离节后综合症，3大绝招帮你迅速恢复元气！",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGZ071618684/BJZRGZ071618684_01/images/v400x300_20161019133324441.jpg",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=402118248&idx=2&sn=ef511b2be448f1d0239e935e5394d752&scene=19#wechat_redirect",
+            "digest": "食欲不振，睡眠紊乱，工作低效…“节后综合症”怎么破？自如管家教你3大绝招，助你调整身心，迅速恢复满满元气！",
+            "appmsgid": 402118248,
+            "itemidx": 2,
+            "type": 9
+        },
+        {
+            "aid": "401043984_4",
+            "title": "冬季·房屋·暖事",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGZ071618586/BJZRGZ071618586_02/images/v400x300_20161021161012692.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=401043984&idx=4&sn=420258b9074bf3ba82b94c25636740f1&scene=19#wechat_redirect",
+            "digest": "冬日房屋·暖事 古人养身讲究“春生、夏长、秋收、冬藏”，即春季耕种、夏季生长、秋季收获、冬季储藏为自然规律，",
+            "appmsgid": 401043984,
+            "itemidx": 4,
+            "type": 9
+        },
+        {
+            "aid": "400810647_1",
+            "title": "如果你家中有位老人",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY081620506/BJZRGY081620506_03/images/v400x300_20161108210736315_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=400810647&idx=1&sn=ed5e12e9289f714127353bff024852b8&scene=19#wechat_redirect",
+            "digest": "“老人受到尊敬，是人类精神最美好的一种特权。”——司汤达",
+            "appmsgid": 400810647,
+            "itemidx": 1,
+            "type": 9
+        }
+    ],
+    "has_more": 1
+}

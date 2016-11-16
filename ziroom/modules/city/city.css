@@ -1,0 +1,55 @@
+.index_header{
+	display: none;
+}
+footer{
+	display: none;
+}
+/*头部回家*/
+.city_header{
+	position: relative;
+	line-height: 4rem;
+	background: #fff;
+	padding-left: 5%;
+	text-align: center;
+}
+.city_left_span{
+	font-size: 1.8rem;
+	color: #bbb;
+}
+.city_left{
+	position: absolute;
+	display: block;
+	width: 20px;
+	height: 40px;
+    background: url("../../images/common.png") no-repeat;
+    background-position: -110px 0px;
+    top: 27%;
+}
+
+.posi{
+	font-size: 1.5rem;
+	color: #a3a3a3;
+	line-height: 4rem;
+	padding-left: 5%;
+}
+.posi_city{
+	line-height: 4rem;
+	background: #fff;
+	position: relative;
+}
+.posi_city_posi{
+	position: absolute;
+	display: block;
+    width: 22px;
+    height: 29px;
+    background: url("../../images/posicity.png") no-repeat;
+    top: 31%;
+    left: 5%;
+}
+.posi_city_span{
+	font-size: 1.5rem;
+	padding-left: 10%;
+}
+.posi_city1{
+	border-bottom: 1px solid #bbb;
+}

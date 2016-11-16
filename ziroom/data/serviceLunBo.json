@@ -1,0 +1,46 @@
+{
+    "status": "0",
+    "message": null,
+    "data": [{
+        "title": "自如服务",
+        "subtitle": "",
+        "pic": "http://pic.ziroom.com/static/upload/cms/2016/10/98f397c8281038d234020df06221302d.jpg",
+        "types": "1",
+        "url": "http://smshd.ziroom.com/threeServicePromotion/index.html?actCode=three_promotion"
+    },
+    {
+        "title": "100元家修礼包  伴你欢度金秋",
+        "subtitle": "",
+        "pic": "http://pic.ziroom.com/static/upload/cms/2016/09/82e6c6bce9fdae5050891b5d1335f47a.jpg",
+        "types": "1",
+        "url": "http://horehd.ziroom.com/?from=groupmessage&isappinstalled=0"
+    },
+    {
+        "title": "自如家修",
+        "subtitle": "",
+        "pic": "http://pic.ziroom.com/static/upload/cms/2016/11/b5db3d5bae8888755a464b8e9275137f.jpg",
+        "types": "0",
+        "url": "http://www.ziroom.com/zhuanti/2016/jiaxiu/index.html"
+    },
+    {
+        "title": "自如保洁升级",
+        "subtitle": "",
+        "pic": "http://pic.ziroom.com/static/upload/cms/2016/08/a03767b3a78cac6ff7610b9a6e9a1555.jpg",
+        "types": "1",
+        "url": "http://www.ziroom.com/zhuanti/2016/bjxfw/m/index.html"
+    },
+    {
+        "title": "自如搬家优惠专区",
+        "subtitle": "",
+        "pic": "http://pic.ziroom.com/static/upload/cms/2016/09/28a398ad879be23e8d3d9266646f58ea.jpg",
+        "types": "1",
+        "url": "http://smshd.ziroom.com/2016/may/douban/index.html?actCode=2016_may_douban_move"
+    },
+    {
+        "title": "自如家修",
+        "subtitle": "",
+        "pic": "http://pic.ziroom.com/static/upload/cms/2016/08/c3d84b1a1bc185db38c5528da3290ddb.jpg",
+        "types": "1",
+        "url": "http://s.m.ziroom.com/maintainance/lockProduct.shtml"
+    }]
+}

@@ -1,0 +1,243 @@
+.index_header{
+	display: none;
+}
+.ui-footer{
+	display: none;
+}
+.down_load{
+	background-color: #fff;
+}
+/*图片轮播效果*/
+.down_load .swiper-container {
+    width: 100%;
+    height: 1133px;
+    /*border: 1px solid red;*/
+}
+/*.swiper-container img{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}*/
+.down_load .swiper-container .swiper-wrapper .swiper-slide>div:first-of-type{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 110px;
+	left: 100px;
+	animation: firstAnima 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+.down_load .swiper-container .swiper-wrapper .swiper-slide>div:nth-of-type(2){
+	width: 250px;
+	height: 520px;
+	position: absolute;
+	top: 110px;
+	right: 60px;
+	animation: first-Anima 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+.down_load .swiper-container .swiper-wrapper .swiper-slide .shishi1{
+	border-radius: 30px;
+	border: 1px solid red;
+	background:url(http://www.ziroom.com/zhuanti/app/m/images/logo.png) no-repeat center;
+}
+.down_load .swiper-container .swiper-wrapper .swiper-slide .shibu1{
+	/*border: 1px solid red;*/
+	position: relative;
+	background-image: url(http://www.ziroom.com/zhuanti/app/m/images/phone.png);
+}
+.down_load .swiper-container .swiper-wrapper .swiper-slide .shibu1>img{
+	position: absolute;
+	top: 69px;left: 19px;
+}
+
+.down_load .swiper-container .swiper-wrapper .swiper-slide .shishi2{
+	border: solid 2px #e6e6e6;
+    border-radius: 80px;
+
+	background: url(http://www.ziroom.com/zhuanti/app/m/images/p2/a.png?2) no-repeat;
+	background-position: 40px 30px;
+	position: relative;
+
+}
+.down_load .swiper-container .swiper-wrapper .swiper-slide .shishi2>div{
+	width: 40px;
+	height: 76px;
+	background-color: #fff;
+	position: absolute;
+	top: 28px;right: 0px;
+
+	/*border: solid 2px #e6e6e6;*/
+    border-radius: 80px;
+}
+
+.down_load .swiper-container .swiper-wrapper .swiper-slide .shishi3{
+	border: solid 2px #e6e6e6;
+    border-radius: 80px;
+	
+	background: url(http://www.ziroom.com/zhuanti/app/m/images/p3/a.png?2) no-repeat;
+	background-position: 30px 30px;
+	position: relative;
+}
+.down_load .swiper-container .swiper-wrapper .swiper-slide .shishi4{
+	/*border: 1px solid pink;*/
+	background: url(http://www.ziroom.com/zhuanti/app/m/images/p4/a.png) no-repeat;
+	background-size: contain;
+}
+.down_load .swiper-container .swiper-wrapper .swiper-slide .shishi5{
+	/*border: 1px solid orange;*/
+	background: url(http://www.ziroom.com/zhuanti/app/m/images/p5/a.png) no-repeat;
+	background-size: contain;
+}
+.down_load .swiper-container .swiper-wrapper .swiper-slide .footerText{
+	width: 360px;
+    height: 60px;
+    display: block;
+    margin: 10px auto;
+    background: #ffa000;
+    border-radius: 10px;
+    padding: 13px 65px ;
+    position: absolute;
+    bottom: 140px;
+    left: 140px;
+    animation: secondAnima 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+.down_load .swiper-container .swiper-wrapper .swiper-slide .footerText>img{
+	margin-top: 25px;
+	margin-left: 45px;
+}
+.down_load .swiper-container .swiper-wrapper .swiper-slide .text1{
+	width: 60px;
+	display: inline-block;
+	position: absolute;
+	top: 300px;
+	left: 100px;
+	animation: thirdAnima 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+.down_load .swiper-container .swiper-wrapper .swiper-slide .text2{
+	display: inline-block;
+	position: absolute;
+	top: 300px;
+	left: 175px;
+	animation: fourthAnima 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+.down_load .swiper-container .swiper-wrapper .swiper-slide .text3{
+	display: inline-block;
+	position: absolute;
+	top: 300px;
+	left: 230px;
+	animation: fifthAnima 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+}
+@keyframes firstAnima{
+	from{
+		top: 100px;
+		left: 90px;
+	}
+	to{
+		top: 140px;
+		left: 130px;
+	}
+}
+@keyframes first-Anima{
+	from{
+		top: 100px;
+		right: 50px;
+	}
+	to{
+		top: 140px;
+		right: 80px;
+	}
+}
+@keyframes secondAnima{
+	from{
+		bottom: 140px;
+	}
+	to{
+		bottom: 180px;
+	}
+}
+@keyframes thirdAnima{
+	from{
+		left: 100px;
+	}
+	to{
+		left: 115px;
+	}
+}
+@keyframes fourthAnima{
+	from{
+		left: 175px;
+	}
+	to{
+		left: 190px;
+	}
+}
+@keyframes fifthAnima{
+	from{
+		left: 230px;
+	}
+	to{
+		left: 245px;
+	}
+}
+
+.down_load .demo{
+	height: 100rem;
+	padding: 2em 0;
+	/*background: linear-gradient(to right, #2c3b4e, #4a688a, #2c3b4e);*/
+	/*background: linear-gradient(to right, #63cef7, #c3d8f0, #63cef7);*/
+	background: url(http://www.ziroom.com/zhuanti/app/m/images/bg.png) no-repeat;
+	background-position: 0px 92.8%;
+}
+.down_load .progress{
+  height: 60px;
+  background: #262626;
+  padding: 5px;
+  overflow: visible;
+  border-radius: 20px;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #7992a8;
+  margin-top: 70%;
+}
+.down_load .progress .progress-bar{
+  border-radius: 20px;
+  position: relative;
+  animation: animate-positive 5s;
+}
+.down_load .progress .progress-value{
+  display: block;
+  padding: 3px 7px;
+  font-size: 45px;
+  color: #fff;
+  border-radius: 4px;
+  background: #191919;
+  border: 1px solid #000;
+  position: absolute;
+  top: -40px;
+  right: -10px;
+}
+.down_load .progress .progress-value:after{
+  content: "";
+  border-top: 10px solid #191919;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  position: absolute;
+  bottom: -6px;
+  left: 26%;
+}
+.down_load .progress-bar.active{
+  animation: reverse progress-bar-stripes 0.40s linear infinite, animate-positive 5s;
+}
+@keyframes animate-positive{
+  0% { width: 0; }
+}

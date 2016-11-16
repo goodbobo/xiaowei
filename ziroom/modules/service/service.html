@@ -1,0 +1,110 @@
+<div id='service'>
+	<header class='service_head'>
+		<div class='servi_local'>
+			<span class='servi_local_bj'>服务专区</span>
+			<span class='servi_local_bg'></span>
+		</div>
+		<div class='servi_demo'>
+			自如服务
+		</div>
+		<div class='servi_order'>
+			我的订单
+		</div>
+	</header>
+	<main class='service_main'>
+	<!-- {{lunbodata}} -->
+	<!-- {{s}} -->
+		<div class="service_top swiper-container">
+  			<div class="swiper-wrapper">
+    			<div class="swiper-slide head_slide" ng-repeat='x in lunbodata'><img ng-src="{{x.pic}}" alt=""></div>
+  			</div>
+  			<!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div> 
+		</div>
+		<div class='servi_nav'>
+
+			<dl class='servi_dl_com' ui-sref="dailyClear">
+				<dt></dt>
+				<dd>日常保洁</dd>
+			</dl>
+			<dl class='servi_dl_com' ui-sref="smallMove">
+				<dt></dt>
+				<dd>自如小搬</dd>
+			</dl>
+			<dl class='servi_dl_com' ui-sref="ziruRepair">
+				<dt></dt>
+				<dd>自如家修</dd>
+			</dl>
+			<dl class='servi_dl_com' ui-sref="consult">
+				<dt></dt>
+				<dd>客服咨询</dd>
+			</dl>
+		</div>	
+		<div class='servi_com servi_clear'>
+			<div class='servi_title_com servi_clear_title'>
+				<span>自如保洁</span>
+				<span>直营品质 质量三天不满意无条件返工</span>
+			</div>
+			<dl class='servi_dl_com servi_list' ui-sref="dailyClear">
+				<dt></dt>
+				<dd>日常保洁</dd>
+			</dl>
+			<dl class='servi_dl_com servi_list' ui-sref="deepClear">
+				<dt></dt>
+				<dd>深度保洁</dd>
+			</dl>
+			<dl class='servi_dl_com servi_list' ui-sref="openClear">
+				<dt></dt>
+				<dd>开荒保洁</dd>
+			</dl>
+			<dl class='servi_dl_com servi_list' ui-sref="killClear">
+				<dt></dt>
+				<dd>消杀保洁</dd>
+			</dl>
+		</div>
+		<div class='servi_com servi_repair'>
+			<div class='servi_title_com servi_clear_title'>
+				<span>自如家修</span>
+				<span>清晰报价 快速上门一年保修</span>
+			</div>
+			<dl class='servi_dl_com servi_list' ui-sref="unlocking">
+				<dt></dt>
+				<dd>开锁换锁</dd>
+			</dl>
+			<dl class='servi_dl_com servi_list' ui-sref="waterpipe">
+				<dt></dt>
+				<dd>水路管件</dd>
+			</dl>
+			<dl class='servi_dl_com servi_list' ui-sref="lamp">
+				<dt></dt>
+				<dd>灯具电路</dd>
+			</dl>
+			<dl class='servi_dl_com servi_list' ui-sref="moreRepair">
+				<dt></dt>
+				<dd>更多维修</dd>
+			</dl>
+		</div>
+		<div class='servi_com servi_move'>
+			<div class='servi_title_com servi_clear_title'>
+				<span>自如搬家</span>
+				<span>明码标价 打包帮手</span>
+			</div>
+			<dl class='servi_dl_com servi_list' ui-sref="smallMove">
+				<dt></dt>
+				<dd>自如小搬</dd>
+			</dl>	
+		</div>
+		<div class="service_bottom swiper-container">
+	  			<div class="swiper-wrapper">
+	    			<div class="swiper-slide head_slide">
+	    			<img src="images/cb4cbc30d1adce1f1aa6cec4b76c9838.jpg" alt=""></div>
+	    			<div class="swiper-slide head_slide">
+	    			<img src="images/d5946bcbb02f4fdfef2144fad2eba726.jpg" alt=""></div>
+	    			<div class="swiper-slide head_slide">
+	    			<img src="images/f936ceabf5fc072299ccefaad03e5812.jpg" alt=""></div>	
+	  			</div>
+	  			<div class="swiper-pagination"></div>
+		</div>
+	</main>
+</div>
+

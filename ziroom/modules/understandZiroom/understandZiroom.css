@@ -1,0 +1,138 @@
+header{
+	display: none;
+}
+.understand_header{
+	height: 4.5rem;
+	width: 100%;
+	border-bottom: solid 1px #ddd;
+	background-color: #fff;
+	display: flex;
+	justify-content: space-between;
+}
+.understand_header h2{
+	text-align: center;
+	font-size: 1.8rem;
+	font-weight: 100;
+	line-height: 4.5rem;
+}
+#go_back{
+	width:4.5rem;
+	height: 4.5rem;
+    background: url(../../images/underZiroom.png) no-repeat 1.3rem .4rem;
+    background-size: 127%;
+	display: inline-block;
+}
+#go_home{
+	width:4.5rem;
+	height: 4.5rem;
+	background: url(../../images/underZiroom.png) no-repeat 1.2rem -4.4rem;
+    background-size: 127%;
+	display: inline-block;
+}
+.under_header{
+	height: 3.75rem;
+	width: 100%;
+	position: relative;
+}
+.under_header p{
+	font-size: 1.5rem;
+	line-height: 1.5rem;
+	color: #666;
+	height: 3.5rem;
+	margin-left: 1.1rem;
+	padding: 1.1rem;
+	border-bottom: solid 1px #e7e7e7;
+}
+.under_header span{
+	position: absolute;
+	width: .3rem;
+	height: 1.5rem;
+	background-color: #e1c86e;
+	display: inline-block;
+	left: 1.1rem;
+	top: 1.1rem;
+}
+.under_one{
+	width: 100%;
+	height: 23.35rem;
+	background-color: #fff;
+}
+.under_two{
+	margin-top: 1rem;
+	width: 100%;
+	background-color: #fff;
+}
+.under_three{
+	width: 100%;
+	margin-top: 1rem;
+	background-color: #fff;
+	margin-bottom: 4.5rem;
+}
+.under_one_main{
+	height: 18rem;
+	width: 100%;
+	background-color: #ccc;
+}
+.under_two_main{
+	height: 20.2rem;
+	width: 100%;
+	padding:1.5rem 1.1rem;
+	box-sizing: border-box;	
+}
+.under_two_main p{
+	line-height: 2rem;
+	font-size: 1.2rem;
+	color: #111;
+}
+.under_three_main{
+	height: 17.9rem;
+	width: 100%;
+	padding: 1.35rem 0 .5rem 1.15rem;
+	box-sizing: border-box;
+}
+.under_three_main ul li{
+	padding-bottom: 1.25rem;
+	box-sizing: border-box;
+	list-style: none;
+	display: flex;
+}
+.under_three_main img{
+	margin-right: 30px;
+}
+.underWord h3{
+	margin:0.35rem 0 .75rem 0 ;
+	line-height: 1.5rem;
+	font-size: 1.5rem;
+	color: #111;
+}
+.underWord p{
+	line-height: 1.2rem;
+	font-size: 1rem;
+	color: #666;
+}
+.owner_footer{
+	height: 4.5rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	bottom: 0;
+	z-index: 5;
+}
+.owner_footer a{
+	width: 50%;
+	text-align: center;
+	line-height: 4.5rem;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: #fff;
+}
+.owner_footer a:first-child{
+	background-color: #b99f48;
+}
+.owner_footer a:last-child{
+	background-color: #666666;
+}
+footer{
+	display: none;
+}

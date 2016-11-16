@@ -1,0 +1,30 @@
+<div id="conRent">
+	<ul class="listFilterBox">
+		<li ng-click='sort1()'>位置<b></b><span></span></li>
+		<li ng-click="sort2()">租金<b></b><span></span></li>
+		<li>排序<b></b><span></span></li>
+		<li>更多<b class="num">1</b><span></span></li>
+	</ul>
+    <div class="houseList">
+      <ul ng-repeat="obj in abc | orderBy:name " ng-click="click_a()" ui-sref="details">
+          <li><img ng-src="{{obj.list_img}}"alt=""></li>
+          <li>
+              <p class="title">
+                {{obj.title}}
+                <span class="y">阳</span>
+                <span class="n">南</span>
+              </p>
+              <p class="usage_area">
+              {{obj.usage_area}}㎡<span class="i">合</span>
+                <span class="price">
+                      ￥<b>{{obj.sell_price}}</b>
+                 </span>
+              </p>
+              <p class="room_name">
+                  <b></b><span>距{{obj.subway_line_code_first}}{{obj.subway_station_code_first}}{{obj.walking_distance_dt_first}}米</span>
+              </p>
+          </li>
+      </ul>  
+    </div>
+    <a href="#" class='loading'>点击加载</a> 
+</div>

@@ -1,0 +1,38 @@
+<div id='#lamp'>
+	<header class='lamp_head'>	
+	<span onclick='history.back()'><</span>
+		<span>自如家修</span>
+		<span>我的订单</span>
+	</header>
+	<main class='lamp_main'>
+		<div class='lamp_main_img'>
+			<img src="images/zrwx.jpg" alt="">
+		</div>
+		<div class='ziruR_main_left_com'>
+			<ul class='ziruR_main_left_comUl'>
+			<!-- 这里当鼠标悬浮li时 div块显示 -->
+				<li class='ziruR_main_left_comLi'>
+					<div class='ziruR_left_comLi_point'></div>
+				灯具电路</li>
+				<li class='ziruR_main_left_comLi'>
+				<div class='ziruR_left_comLi_point'></div>开锁换锁</li>
+				<li class='ziruR_main_left_comLi'>
+				<div class='ziruR_left_comLi_point'></div>水路管件</li>
+				<li class='ziruR_main_left_comLi'>
+				<div class='ziruR_left_comLi_point'></div>更多维修</li>
+			</ul>
+		</div>
+		<div class='ziruR_main_right_com'>
+			<dl class='ziruR_main_rightDl' ng-repeat='x in lampData'>
+				<dt class='ziruR_main_rightDt'><img ng-src="{{x.imgUrl}}" alt=""></dt>
+				<dd class='ziruR_main_rightDd'>
+					<p class='ziruR_right_name'>{{x.productName}}</p>
+					<p class='ziruR_right_instr'>{{x.productRemark}}</p>
+					<span  class='ziruR_right_mon'>￥</span>
+					<span class='ziruR_right_price'>{{x.productPrice}}</span>
+					<span  class='ziruR_right_price1'>起</span>
+				</dd>
+			</dl>
+		</div>
+	</main>
+</div>

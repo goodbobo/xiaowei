@@ -1,0 +1,85 @@
+html{
+	background: #fff;
+}
+.index_header{
+	display: none;
+}
+footer{
+	display: none;
+}
+.sgin{
+	background: #fff;
+}
+.sgin_all{
+	width: 70%;
+	margin: auto;
+}
+/*标题*/
+.sgin_header{
+	text-align: center;
+	font-size: 1.6rem;
+	line-height: 6rem;
+}
+/*输入框*/
+.sgin_input{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	width: 100%;
+	padding: 5% 0;
+	color: #444444;
+	font-size: 1.5rem;
+}
+.sgin_input_no2{
+	padding-right: 40%;
+}
+.sgin_input_no3{
+	padding-right: 20%;
+}
+.sgin_ul_li{
+	position: relative;
+}
+.sgin_right{
+	display: block;
+	position: absolute;
+	top: 30%;
+	right: 0px;
+    font-size: 1.5rem;
+    color: #bbb;
+}
+.sgin_ico{
+	display: block;
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+	top: 30%;
+	right: 0px;
+	background: url('../../images/eyes.png') no-repeat;
+	background-size: cover;
+}
+.sgin_sgin_input{
+	padding: 35% 0 10% 0;
+}
+.sgin_password{
+	font-size: .5rem;
+	color: #bbb;
+	line-height: 1.5rem;
+}
+
+._sgin_log{
+	font-size: 2.5rem;
+	color: #ffa000;
+	position: relative;
+	text-align: right;
+	padding-right: 5%;
+}
+.sgin_log_img{
+	display: block;
+	position: absolute;
+	width: 2.5rem;
+	height: 2.5rem;
+	background: url(../../images/sgin_log.png) no-repeat 50% 50%;
+	background-size: contain;
+	top: 10%;
+    right: -5%;
+}

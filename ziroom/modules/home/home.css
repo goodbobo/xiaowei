@@ -1,0 +1,204 @@
+.home_meun{
+	overflow: hidden;
+	background: #fff;
+}
+.home_meun_li{
+	width: 25%;
+    float: left;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 2% 0px;
+}
+.home_meun_li>p{
+	font-size: 1rem;
+	margin-top: 5%;
+}
+.home_meun_li_a>img{
+	margin: auto;
+}
+
+.swipe_all img{
+	width: 100%;
+}
+
+/*下载提示条*/
+.home_down{
+	margin: 1px 0px 15px 0px;
+	background: #fff;
+}
+.home_down_after{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background: url(../../images/index_icon.png) no-repeat;
+	background-position: -320px 0;
+	margin: 4% 0 3% 5%;
+    vertical-align: middle;
+}
+.home_down_span{
+	font-size: 1.5rem;
+	vertical-align: middle;
+}
+/*自如栏目*/
+.hmoe_main{
+	margin-top: 30px;
+}
+	/*自如友家*/
+.ziroom_firend{
+	background: #fff;
+	margin: 15px 0px;
+}
+.home_firend_name{
+    line-height: 4.2rem;
+}
+
+.firend_name_span{
+	font-size: 1.6rem;
+	position: relative;
+	margin-left: 20px;
+	padding: 10px ;
+}
+.firend_name_span:after{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -13px;
+    width: 6px;
+    height: 26px;
+    border-radius: 2px;
+    background: #ffa000;
+    content: '';
+}
+.firend_more{
+	float: right;
+	margin-right: 5%;
+	color: #bbb;
+	font-size: 1.4rem
+}
+.firend_more_right{
+	display: inline-block;
+	width: 14px;
+	height: 30px;
+	background: url(../../images/common.png) no-repeat;
+	background-position: 0px -10px;
+	vertical-align: middle;
+}
+.firend_img>img{
+	width: 100%;
+	height: 18rem;
+}
+.firend_monery{
+	padding: 0.7rem 0;
+}
+.monery_name{
+	font-size: 1.5rem;
+	margin-left: 3%;
+}
+.monery_yes{
+	float: right;
+}
+.monery_yes2{
+	margin-right: 5%;
+	color: #bbb;
+	line-height: 2rem;
+	margin-left: 3px;
+}
+.monery_yes1{
+	color: #ffa000;
+	font-size: 1.5rem;
+}
+.firend_address{
+	padding-bottom: 2.5rem;
+	color: #999;
+	font-size: 1.5rem;
+	margin-left: 3%;
+}
+
+	/*自如整租*/
+.together:after{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -13px;
+    width: 6px;
+    height: 26px;
+    border-radius: 2px;
+    background: #f8767f;
+    content: '';	
+}
+	/*自如寓*/
+.apartment:after{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -13px;
+    width: 6px;
+    height: 26px;
+    border-radius: 2px;
+    background: #e6d48a;
+    content: '';		
+}
+	/*自如服务*/
+.sever:after{
+	position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -13px;
+    width: 6px;
+    height: 26px;
+    border-radius: 2px;
+    background: #00a1e9;
+    content: '';		
+}
+.ziroom_ul_fuwu{
+	overflow: hidden;
+}
+.fuwu{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	float: left;
+	width: 33%;
+	text-align: center;
+	border-right: 1px solid #e6e6e6;
+    padding: 1rem 0;
+}
+.fuwu img{
+	margin: auto
+}
+.fuwu:last-child{
+	border:none;
+}
+.ziroom_ul_fuwu p{
+	font-size: 1.5rem;
+}
+	/*自如生活*/
+.list{
+	overflow: hidden;
+}
+.list_text{
+	float: left;
+	margin-left: 2%;
+}
+.list_h2{
+	font-size: 1.6rem;
+	line-height: 2rem;
+	border-top: 1px solid #bbb;
+	width: 160%;
+	margin-bottom: 2%;
+	padding-top: 5%;
+}
+.list_p1,.list_p2{
+	font-size: 1rem;
+	margin: 5% 0;
+	color: #bbb;
+}
+
+.swiper-container .swiper-wrapper .swiper-slide img{
+	width: 100%;
+}
+.swiper-container .swiper-wrapper .swiper-slide .list_img{
+	float: left;
+	width: 40%;
+}

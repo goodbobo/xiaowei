@@ -1,0 +1,72 @@
+/*header{
+	display: none;
+}*/
+.owner_header{
+	height: 19.1rem;
+	width: 100%;
+	background: url(../../images/ownertop.jpg);
+}
+.owner_header img{
+	padding-top: 4rem;
+    padding-left: 4rem;
+}
+.owner_main{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fff;
+}
+.owner_main a{
+	width: 33.3%;
+	height: 8.85rem;
+	padding: 1.25rem 0;
+	box-sizing: border-box;
+	text-align: center;
+	text-decoration: none;
+}
+.owner_main a img{
+	margin-left: 4rem;
+}
+.owner_main a p{
+	margin-top: 1.45rem;
+	font-size: 1.2rem;
+	color: #111;
+}
+.ownerList{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 4.5rem;
+	background-color: #fff;
+}
+.ownerList a{
+	width: 30.65rem;
+	height: 16rem;
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+.owner_footer{
+	height: 4.5rem;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	bottom: 0;
+	z-index: 5;
+}
+.owner_footer a{
+	width: 50%;
+	text-align: center;
+	line-height: 4.5rem;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: #fff;
+}
+.owner_footer a:first-child{
+	background-color: #b99f48;
+}
+.owner_footer a:last-child{
+	background-color: #666666;
+}
+footer{
+	display: none;
+}

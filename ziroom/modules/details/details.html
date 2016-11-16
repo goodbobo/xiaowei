@@ -1,0 +1,174 @@
+<div id="details">
+	<header>
+      <p class="header-leftRow" onclick="history.back()"></p>
+      <h2>房间详情</h2>
+      <p class="header-person" ui-sref="home"></p>  
+  </header>
+  <div class="swiper-container"> 
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img ng-src="{{list_img}}"></div>
+        <!-- <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>
+        <div class="swiper-slide"></div>   -->        
+     </div>      
+    <div class="swiper-pagination myPage"></div>
+  </div>
+  <div class="detail">
+      <h2>{{title}}
+          <span class="i">合</span>
+      </h2>
+      <!-- <p class="detail-addr">[大兴 黄村]4号线生物医药基地 -->
+      <p class="detail-addr">[{{district_name}} {{bizcircle_name[0]}}]{{subway_line_code_first}}{{subway_station_code_first}}
+        <a href="#">
+          <span class="detail-right">付款方式<b></b></span>
+        </a>
+      </p>
+      <p class="detail-meter">
+          <!-- <b></b>距4号线生物医药基地步行273米 -->
+          <b></b>距{{subway_line_code_first}}{{subway_station_code_first}}步行{{walking_distance_dt_first}}米
+      </p>
+      <p class="detail-style">
+        独立阳台
+      </p>
+  </div>
+  <div class="ui-box">
+    <h2>
+        <p>房间信息</p>
+        <a href="#">
+          <span class="detail-right">付款方式<b></b></span>
+        </a>
+    </h2>
+    <ul class='device'>
+      <li>
+        <div></div>
+        <p>木棉</p>
+      </li>
+      <li>
+        <div></div>
+        <p>WI-FI</p>
+      </li>
+      <li>
+        <div></div>
+        <p>免费保洁</p>
+      </li>
+      <li>
+        <div></div>
+        <p>及时维修</p>
+      </li>
+    </ul>
+    <ul class="myHouseList">
+      <li>
+        <p>面积:{{usage_area}}m</p>
+        <p>居室:4居室</p>
+        <p>朝向:朝南</p>
+        <p>楼层:16/18层</p>
+      </li>
+      <li class="bedroom"><p>01卧&nbsp;<span class="price">2190</span>元/月</p>
+        <a href="#">
+          <span class="detail-right">查看房间<b></b></span>
+        </a>
+      </li>
+      <li class="bedroom"><p>02卧&nbsp;男&nbsp;天秤座</p></li>
+      <li class="bedroom"><p>03卧<span class="price">2190</span>元/月</p>
+         <a href="#">
+          <span class="detail-right">查看房间<b></b></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="ui-box">
+    <h2><p>管家说</p></h2>
+    <ul class="person">
+        <li class="img"><img src="images/person.png" alt=""></li>
+        <li class="intro">
+          <p>我是自如管家齐磊，东北女孩儿，平时喜欢各种球类运动，希望与期待良好租住生活体验的你快快相遇！</p>
+          <p class="author price">Z.O.(自如管家)：齐磊</p>
+        </li>
+    </ul>
+    <ul class="zhoubian zhoubian-car">
+      <li></li>
+      <li class="zhoubian_cart">小区北门左手边直走20米是华联超市和华冠超市，再往前是京韵茶庄；右手边的汇集了陆地来饺子城、林宸麻辣烫等餐馆、冉冉五金建材等商铺；小区门正对是房山区委党校所在地，旁边是连振高超4S店景色宜人；小区内设有碧波园社区服务站和长阳司法所</li>
+    </ul>
+    <ul class="zhoubian zhoubian-bar">
+      <li></li>
+      <li>从小区南门左手边直走5分钟到地铁房山线广阳城站，小区北门口是碧波园公交站，有956、有房28、房33、房34、房38、房51、房2路内环和房2路外环等公交车经过此站</li>
+    </ul>
+  </div>
+  <div class="ui-box box-bottom">
+    <h2><p>推荐房源</p></h2>
+    <div id="conRent">
+      <div class="houseList">
+          <a href="#">
+              <ul>
+                  <li><img src="{{list_img}}"></li>
+                  <li>
+                      <p class="title">
+                        {{title}}
+                        <span class="y">阳</span>
+                        <span class="n">南</span>
+                      </p>
+                      <p class="usage_area">
+                      22.4m<span class="i">合</span>
+                        <span class="price">
+                              ￥<b>{{sell_price}}</b>
+                         </span>
+                      </p>
+                      <p class="room_name">
+                          <b></b>距<span>{{subway_line_code_first}}{{subway_station_code_first}}步行{{walking_distance_dt_first}}米</span>
+                      </p>
+                  </li>
+              </ul>
+          </a>
+          <a href="#">
+              <ul>
+                  <li><img src="{{list_img}}"></li>
+                  <li>
+                      <p class="title">
+                        {{title}}
+                        <span class="y">阳</span>
+                        <span class="n">南</span>
+                      </p>
+                      <p class="usage_area">
+                      22.4m<span class="i">合</span>
+                        <span class="price">
+                              ￥<b>{{sell_price}}</b>
+                         </span>
+                      </p>
+                      <p class="room_name">
+                          <b></b>距<span>{{subway_line_code_first}}{{subway_station_code_first}}步行{{walking_distance_dt_first}}米</span>
+                      </p>
+                  </li>
+              </ul>
+          </a>
+          <a href="#">
+              <ul>
+                  <li><img src="{{list_img}}"></li>
+                  <li>
+                      <p class="title">
+                        {{title}}
+                        <span class="y">阳</span>
+                        <span class="n">南</span>
+                      </p>
+                      <p class="usage_area">
+                      22.4m<span class="i">合</span>
+                        <span class="price">
+                              ￥<b>{{sell_price}}</b>
+                         </span>
+                      </p>
+                      <p class="room_name">
+                          <b></b>距<span>{{subway_line_code_first}}{{subway_station_code_first}}步行{{walking_distance_dt_first}}米</span>
+                      </p>
+                  </li>
+              </ul>
+          </a>
+      </div>
+    </div>
+  </div>
+
+  <ul class="detail-footer">
+      <li><b></b>分享</li>
+      <li>联系管家</li>
+  </ul>
+</div>

@@ -1,0 +1,33 @@
+{
+    "info": "ok",
+    "data": [
+        {
+           "id":"1",
+           "img":"http://pic.ziroom.com/static/upload/cms/2016/10/9de707cc1d621d612f7fb3d5a79db448.jpeg"
+        },
+        {
+           "id":"2",
+           "img":"http://pic.ziroom.com/static/upload/cms/2016/10/3e319234f2655862b2c471e1108584f6.jpg"
+        },
+        {
+           "id":"3",
+           "img":"http://pic.ziroom.com/static/upload/cms/2016/10/b6025095c90e19af2fcd939e622e2ac6.jpg"
+        },
+        {
+           "id":"4",
+           "img":"http://pic.ziroom.com/static/upload/cms/2016/09/b9baa579aaf5785d7dc93a69d09eb3c3.jpg"
+        },
+        {
+           "id":"5",
+           "img":"http://pic.ziroom.com/static/upload/cms/2016/09/114f626cd009239c2eed2318cc7efa71.jpg"
+        },
+        {
+           "id":"6",
+           "img":"http://pic.ziroom.com/static/upload/cms/2016/10/1e38f6ba66ec03c5fbd0c23e5e55a230.jpg"
+        },
+        {
+           "id":"7",
+           "img":"http://pic.ziroom.com/static/upload/cms/2016/07/a665b1d4f3d1fcedc041587535b0ad6c.jpg"
+        }
+    ]
+}

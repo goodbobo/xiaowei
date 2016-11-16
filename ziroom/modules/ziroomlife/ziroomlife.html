@@ -1,0 +1,55 @@
+<div id="ziroomLife">
+	<div class="ziroomLife_header">
+	<!-- 头部图片轮播 -->
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		        <div class="swiper-slide">
+		        	<a>
+						<div class="img" style="background-image: url(images/02Q58PIC8Nd_1024.jpg)"></div>
+						<p class="desc js_title">业主故事|我将房屋空了十年，直到遇见自如</p>
+					</a>
+		        </div>
+		        <div class="swiper-slide">
+		        	<a>
+						<div class="img" style="background-image: url(images/09M58PICmwb_1024.jpg)"></div>
+						<p class="desc js_title">自如管家带你认识老舍的理想房屋</p>
+					</a>
+		        </div>
+		        <div class="swiper-slide">
+			        <a>
+						<div class="img" style="background-image: url(images/1147083ot26w681ztwrj1i.jpg)"></div>
+						<p class="desc js_title">自如这样管理租客，您还有什么不放心？</p>
+					</a>
+		        </div>
+		    </div>
+		    <!-- 如果需要分页器 -->
+		    <div class="swiper-pagination"></div>
+		</div>
+	</div>
+	<div class="ziroomLife_nav">
+		<ul>
+			<li ng-click="show1()">自如咨询</li>
+			<li ng-click="show2()">业主活动</li>
+			<li ng-click="show3()">业主故事</li>
+			<li ng-click="show4()">生活实用</li>
+		</ul>
+	</div>
+	<div class="ziroomLife_list">
+		<ul ng-repeat="lists in appmsg_list">
+			<li>
+				<div class="cover">
+					<!-- <img src="{{images/logo.jpg}}"> -->
+					<img src="{{lists.cover}}">
+				</div>
+				<div class="cont">
+					<!-- <h2>快来看看自如把您房子装成什么样了吧！</h2> -->
+					<h2>{{lists.title}}</h2>
+					<!-- <p>亲爱的业主， 当您把房屋交给自如， 是不是也常常心有余悸， 时时揣摩自己的房子到底变成什么样了呢？</p> -->
+					<p>{{lists.digest}}</p>
+				</div>
+			</li>
+		</ul>
+		<!-- appmsg_list1 -->
+
+	</div>
+</div>

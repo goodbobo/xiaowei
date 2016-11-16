@@ -1,0 +1,159 @@
+#conRent .listFilterBox{
+	display: flex;
+	height: 4rem;
+	line-height: 4rem;
+	border-top:1px solid #d1d1d1;
+	border-bottom:1px solid #d1d1d1;
+	background: #fff;
+}
+#conRent .listFilterBox li{	
+	font-size: 1.2rem;
+	flex:1;
+	color: #8e8e8e;
+	text-indent: 2rem;
+	display: flex;
+	align-items:center;
+	justify-content:space-between;
+}
+#conRent .listFilterBox li b{
+	display: inline-block;
+	width: 0.95rem;
+	height: 0.65rem;
+	background: url(../../images/common.png);
+	background-size: 14rem 22rem;
+	margin: 0 0 0 -0.5rem;
+}
+#conRent .listFilterBox li b.num{
+    background: #ffa000;
+    width: 1.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    border-radius: 50%;
+    color: #fff;
+    line-height: 1.2rem;
+    text-align: center;
+    font-size: 1rem;
+    text-indent: 0;
+}
+#conRent .listFilterBox li span{
+	content: '';
+	border-right: solid 1px #d1d1d1;
+	height: 0.8rem;
+	width: 0;
+}	
+#conRent .houseList ul{
+	padding:1.5rem 0.2rem 1.5rem 1.2rem;
+	border-bottom:1px solid #d1d1d1;
+	display: flex;
+	flex-flow:no-wrap;
+	color: #8e8e8e;
+	background: #fff;
+
+}
+#conRent .houseList ul li img{
+	width: 12rem;
+	height:9rem;
+}
+
+#conRent .houseList ul li:last-of-type{
+	margin:0 0 0 1rem;
+}
+#conRent .houseList ul li p{
+	width: 17.5rem;
+}
+#conRent .houseList ul li .title{
+	font-size: 1.5rem;
+	font-weight: 400;
+	height: 5rem;
+	line-height: 2.1rem;
+
+}
+#conRent .houseList ul li span{
+	width: 1.5rem;
+	height: 1.5rem;
+	line-height: 1.5rem;
+	text-align: center;
+	color: #fff;
+	border-radius: 0.4rem;
+	font-size: 1rem;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: -0.2rem;
+	margin-left: -0.2rem;
+}
+#conRent .houseList ul li .y{
+	background: #00bc9c;
+}
+#conRent .houseList ul li .n{
+	background: #f2c42a;
+}
+#conRent .houseList ul li .w{
+	background: #3498db;
+}
+#conRent .houseList ul li .i{
+	background: #ffa000;
+	margin-left: 0.5rem;
+}
+
+.room_name{
+	font-size: 1.2rem;
+	color:#a7a7a7;
+}
+.room_name b{
+	display: inline-block;
+	vertical-align: middle;
+	width: 1.25rem;
+	height: 1.55rem;
+	background: url(../../images/common.png);
+	background-size: 14rem 22rem;
+	background-position:-11.1rem -0.04rem;
+}
+#conRent .houseList .room_name span{
+	display: inline-block;
+    vertical-align: middle;
+    margin-top: -0.5rem;
+    margin-left: 0;
+    text-align: left;
+    width: 15rem;
+    color: #a7a7a7;
+    font-size: 1.2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#conRent .houseList .usage_area{
+	width: 16rem;
+	height: 2.25rem;
+	font-size: 1.2rem;
+	color:#a7a7a7;
+}
+#conRent  .usage_area .price{
+	font-size: 1.8rem;
+	color: #ffa000;
+	text-align: right;
+	display: inline-block;
+	margin-right: 0;
+	font-weight: 600;
+	float: right;
+	margin-right: 3.5rem;
+
+}
+#conRent  .usage_area .price b{
+	margin-left: -0.2rem;
+	font-weight: 200;
+	font-size: 1.8rem;
+
+}
+#conRent .loading{
+	background: #ffa000;
+	width: 19.2rem;
+	height: 3rem;
+	line-height: 3rem;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2rem;
+	display: block;
+	margin:1.5rem auto;
+	border-radius: 0.5rem;
+	font-weight: 800;
+}

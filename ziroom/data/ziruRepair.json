@@ -1,0 +1,30 @@
+{
+    "status": "0",
+    "message": null,
+    "data": [{
+        "categoryCode": "10101011",
+        "cityCode": "110000",
+        "id": 5 ,
+        "imgAlt": null ,
+        "imgUrl": "http://s.m.ziroom.com/static/maintainance/serve/productImg/101010111000000.jpg",
+        "isFast": 1 ,
+        "logicCode": "101010111000000",
+        "productName": "卧室门锁",
+        "productPrice": 69,
+        "productRemark": "开锁换锁修锁，自如为您解烦恼",
+        "productSlogan": null
+    },
+    {
+        "categoryCode": "10101011",
+        "cityCode": "110000",
+        "id": 6 ,
+        "imgAlt": null ,
+        "imgUrl": "http://s.m.ziroom.com/static/maintainance/serve/productImg/101010111000001.jpg",
+        "isFast": 1 ,
+        "logicCode": "101010111000001",
+        "productName": "防盗门锁",
+        "productPrice": 69,
+        "productRemark": "开锁换锁修锁，自如为您解烦恼",
+        "productSlogan": null
+    }]
+}

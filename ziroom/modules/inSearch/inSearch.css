@@ -1,0 +1,77 @@
+.index_header{
+    display: none;
+}
+
+.inSearch_seo{
+    background: #fff;
+    padding: 1% 0% 3% 4%;
+}
+.inSearch_input{
+    box-sizing: border-box;
+    margin-top: 12px;
+    padding-left: 10px;
+    width: 70%;
+    border: solid 1px #d1d1d1;
+    border-radius: 10px;
+    color: #bbb;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+.inSearch_seo_span{
+    font-size: 1.6rem;
+    margin-left: 5%;
+}
+/*热门搜索*/
+.inSearch_history_seo_p1{
+    font-size: 1.4rem;
+    padding: 5% 0% 5% 3%;
+}
+
+.inSearch_history_seo_div{
+    background: #fff;
+    width: 100%;
+}
+.history_div_p{
+    position: relative;
+    margin: 0 5%;
+    padding: 5% 0%;
+    border-bottom: 1px solid #bbb;
+}
+.history_div_p_span1{
+    display: block;
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    background: url('../../images/common.png') no-repeat -240px -40px;
+}
+.history_div_p_span2{
+    font-size: 1.4rem;
+    margin-left: 40px;
+}
+/*清除搜索记录*/
+.inSearch_del{
+    background: #fff;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 5rem;
+}
+
+/*热门搜索列表*/
+.hot{
+    padding:0 3% 0 3%;
+    overflow: hidden;
+    margin-bottom: 3%;
+}
+.hot_seo{
+    font-size: 1.4rem;
+    padding: 3% 0 5% 0;
+}
+.hot_seo_li{
+    float: left;
+    font-size: 1.4rem;
+    width: 30%;
+    text-align: center;
+    padding: 2% 0;
+    margin: 2% 1%;
+    background: #fff;
+}

@@ -1,0 +1,212 @@
+*{
+	padding: 0;margin: 0;
+}
+body{
+	font-size: 125%;
+	font-family: '黑体';
+	background: #F5F4F9;
+
+}
+/*.index_header{
+	display: none;
+}*/
+.ui-footer{
+	display: none;
+}
+/*服务头部样式*/
+#service{
+
+}
+#service .service_head{
+	width: 100%;
+	height: 4rem;
+
+	background: #FFFFFF;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+	color: #111B24;
+
+}
+.service_head .servi_local{
+	display: inline-block;
+	margin-left: 0.5rem;
+	
+}
+.servi_local .servi_local_bj{
+	font-size: 1.5rem;
+}
+.servi_local .servi_local_bg{
+	display: inline-block;
+	width: 0.9rem;
+	height: 0.5rem;
+	background: url(../../images/common.png) no-repeat;
+	background-size: 15rem;
+	background-position: 0rem 0rem;
+	
+}
+.service_head .servi_demo{
+	display: inline-block;
+	font-size: 1.5rem;
+}
+.service_head .servi_order{
+	display: inline-block;
+	margin-right: 0.5rem;
+	font-size: 1.5rem;
+}
+/*轮播图部分*/
+/*上门轮播图*/
+.service_top{
+	height: 17rem;
+}
+.swiper-wrapper{
+	
+}
+/*下面轮播图*/
+.service_bottom{
+	height: 10rem;
+	/*margin-top: 0.5rem;*/
+	margin-bottom: 1rem;
+	background: pink;
+}
+.service_bottom img{
+	width: 100%;
+	height: 10rem;
+}
+/*servi_nav  轮播图下面 日常保洁 自如小搬*/
+.servi_nav{
+	width: 100%;
+	height: 8rem;
+	background: #FFFFFF;	
+}
+/*dl 的公共样式*/
+.servi_nav .servi_dl_com{
+	display: inline-block;
+	text-align: center;	
+	border-right: 1px solid #E6E6E6;
+	line-height: 4rem;
+	padding-right: 1rem;
+	text-align: center;
+	width: 23.5%;
+}
+.servi_nav .servi_dl_com:last-of-type{
+	border-right: none;
+}
+.servi_dl_com dt{
+	width: 4rem;
+	height: 3rem;
+	background: url(../../images/icon.png);
+	margin-top: 1rem;
+
+}
+.servi_dl_com:nth-of-type(1) dt{
+	background-position: 0rem 0rem;
+	margin-left: 2rem;
+
+}
+.servi_dl_com:nth-of-type(2) dt{
+	background-position: -0.2rem -2.8rem;
+	margin-left: 1.5rem;
+
+}
+.servi_dl_com:nth-of-type(3) dt{
+	background-position: 0rem -5.9rem;
+	margin-left: 2rem;
+}
+.servi_dl_com:nth-of-type(4) dt{
+	background-position: 0rem -8.6rem;
+	margin-left: 2rem;
+}
+/*页面中 dd 的公共样式*/
+#service dd{
+	font-size: 1.3rem;
+}
+/*自如保洁 自如家修 自如搬家公共样式*/
+/*用了上面的dl的样式 */
+.servi_com{
+	background: #ffffff;
+	margin-top: 1.6rem;
+	width: 100%;
+	height: 12rem;
+}
+/*标题*/
+.servi_title_com{
+	width: 100%;
+	height: 4rem;
+	padding-top: 1.5rem;
+	border-bottom: 1px solid #E6E6E6;
+
+
+}
+.servi_title_com span:nth-of-type(1){
+	display: inline-block;
+	padding-left: 0.2rem;
+	margin-left: 0.3rem;
+	border-left: 0.2rem solid  #7BC643;
+	border-radius: 0.1rem;
+	font-size: 1.5rem;
+}
+.servi_title_com span:nth-of-type(2){
+	color: #BBBBBB;
+	margin-left: 1rem;
+	font-size: 1.3rem;
+}
+/*列表*/
+.servi_dl_com{
+	display: inline-block;
+	width: 23.5%;
+	border-right:1px solid #E6E6E6; 
+	text-align: center;
+	line-height: 4rem;
+}
+.servi_dl_com:last-of-type{
+	border-right: none;
+}
+/*自如保洁*/
+.servi_clear .servi_list:nth-of-type(1) dt{
+	/*padding-left: 2rem;*/
+	margin-left: 2.5rem;
+}
+.servi_clear .servi_list:nth-of-type(2) dt{
+	background-position: 0rem -11.6rem;
+	margin-left: 2.5rem;
+}
+
+.servi_clear .servi_list:nth-of-type(3) dt{
+	background-position: 0rem -15rem;
+	margin-left: 2.5rem;
+}
+.servi_clear .servi_list:nth-of-type(4) dt{
+	background-position: 0rem -18.3rem;
+	margin-left: 2.5rem;
+}
+/*自如家修*/
+.servi_repair .servi_list:nth-of-type(1) dt{
+	background-position: 0rem -21.6rem;
+	margin-left: 2.5rem;
+}
+.servi_repair .servi_list:nth-of-type(2) dt{
+	background-position: -3rem 0rem;
+	margin-left: 1rem;
+}
+.servi_repair .servi_list:nth-of-type(3) dt{
+	background-position: -3rem -6.4rem;
+	margin-left: 0.6rem;
+}
+.servi_repair .servi_list:nth-of-type(4) dt{
+	background-position: 0rem -5.9rem;
+	margin-left: 2.5rem;
+}
+/*自如搬家*/
+.servi_move{
+	margin-bottom: 0.5rem;
+}
+.servi_move .servi_list:nth-of-type(1) dt{
+	background-position: -0.2rem -2.8rem;
+}
+/**/
+.servi_foot_swip{
+	height: 10rem;
+}
+
+

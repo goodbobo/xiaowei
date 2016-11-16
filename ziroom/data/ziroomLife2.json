@@ -1,0 +1,108 @@
+{
+    "base_resp": {
+        "ret": 0
+    },
+    "appmsg_list": [
+        {
+            "aid": "403351889_1",
+            "title": "活动报名|春季房产嘉年华—自如邀您一次解决与“房”相关的所有问题",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY081620097/BJZRGY081620097_06/images/v400x300_20161109200926670_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=403351889&idx=1&sn=1c5c0475468d6dc02ef977f899703fb9&scene=19#wechat_redirect",
+            "digest": "春季房产嘉年华—自如邀您一次解决与“房”相关的所有问题。",
+            "appmsgid": 403351889,
+            "itemidx": 1,
+            "type": 9
+        },
+        {
+            "aid": "403184195_3",
+            "title": "业主俱乐部 | 自如与业主饕餮的这一场春光",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY081620191/BJZRGY081620191_05/images/v400x300_20161101201413729_F.jpg",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=403184195&idx=3&sn=131650195ea4a6f6b5f395dc9f5cdd72&scene=19#wechat_redirect",
+            "digest": "「踏青游、拾翠惜，袜罗弓小，莲步袅。」暮春三月，最适宜呼朋唤友、踏春而行、寻农家野果。这个春天自如和20位业",
+            "appmsgid": 403184195,
+            "itemidx": 3,
+            "type": 9
+        },
+        {
+            "aid": "403062664_1",
+            "title": "业主活动 | 自如带您品尝三月的味道",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY031617274/BJZRGY031617274_05/images/v400x300_20161103223252222_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=403062664&idx=1&sn=379990712deb570902577e518aea8735&scene=19#wechat_redirect",
+            "digest": "这个春天，自如为您备好一场春天的筵席。让您一尝三月的味道。",
+            "appmsgid": 403062664,
+            "itemidx": 1,
+            "type": 9
+        },
+        {
+            "aid": "402288115_3",
+            "title": "业主元宵亲子会| 自如业主与孩子们的温热时光",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY081620755/BJZRGY081620755_06/images/v400x300_20161111214758828_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=402288115&idx=3&sn=fa37a4a004d5ebe49ae6d516790d6f2f&scene=19#wechat_redirect",
+            "digest": "2016年的元宵佳节，15位自如业主来这里与孩子们度过一段温热时光。",
+            "appmsgid": 402288115,
+            "itemidx": 3,
+            "type": 9
+        },
+        {
+            "aid": "402118248_1",
+            "title": "亲子活动报名 | 正月里、正月正、正月里自如闹花灯",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY031619826/BJZRGY031619826_05/images/v400x300_20161030200011219_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=402118248&idx=1&sn=83b340b31c51efb4fce0659925e203e1&scene=19#wechat_redirect",
+            "digest": "元宵小店周末不打烊左边的小圆环可以复制多个哦",
+            "appmsgid": 402118248,
+            "itemidx": 1,
+            "type": 9
+        },
+        {
+            "aid": "401809505_2",
+            "title": "【福利】年终大扫除最强攻略！",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY081620097/BJZRGY081620097_06/images/v400x300_20161109200926670_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=401809505&idx=2&sn=ec62e8c44242078956e2476426f871f2&scene=19#wechat_redirect",
+            "digest": "想要更省心的年终大扫除？你想要的最强攻略都在这里了！",
+            "appmsgid": 401809505,
+            "itemidx": 2,
+            "type": 9
+        },
+        {
+            "aid": "401560946_1",
+            "title": "没有节日气息？不妨给房屋一抹中国红",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY081620336/BJZRGY081620336_05/images/v400x300_20161111195709766_F.jpg",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=401560946&idx=1&sn=4822d033425f93355ec207dcc7b74d38&scene=19#wechat_redirect",
+            "digest": "红色始终最具中国韵致，灼灼其华、明艳动人。新的一年，如果您烦恼房屋略显单调，不如让自如管家教您如何给房屋添一抹巧妙的“中国红”，增添节日之暖。",
+            "appmsgid": 401560946,
+            "itemidx": 1,
+            "type": 9
+        },
+        {
+            "aid": "401327147_2",
+            "title": "北京城边的桃花源",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY081620039/BJZRGY081620039_01/images/v400x300_20161110205953469_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=401327147&idx=2&sn=83689a522a4085fdc8a0e1eaaa5b017b&scene=19#wechat_redirect",
+            "digest": "心之向往的东西，或许就在某一天，悄然实现。",
+            "appmsgid": 401327147,
+            "itemidx": 2,
+            "type": 9
+        },
+        {
+            "aid": "401150973_2",
+            "title": "室内雾霾更可怕？用这6招防御最有效！",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY081621033/BJZRGY081621033_05/images/v400x300_20161111174825622_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=401150973&idx=2&sn=0bc4a1b121049504496b4d9f1ad6d8a7&scene=19#wechat_redirect",
+            "digest": "由于现代人平均90%的时间都在室内生活和工作，许多民用和商用建筑的室内空气污染程度极高，严重时可达室外空气污染的数倍。比起户外看得见的雾霾，这些看不见的室内雾霾更可怕。",
+            "appmsgid": 401150973,
+            "itemidx": 2,
+            "type": 9
+        },
+        {
+            "aid": "400685436_2",
+            "title": "3分钟搞定：壁挂炉的4种常见问题",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGY081620506/BJZRGY081620506_03/images/v400x300_20161108210736315_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=400685436&idx=2&sn=0adbf4a6b7ef845b4ceb8844b945d754&scene=19#wechat_redirect",
+            "digest": "隆冬将至，你的御寒模式开启了吗？初雪早早已下，暖气迟迟未供，帝都人民表示很揪心。当然，如果你家装有壁挂炉：这",
+            "appmsgid": 400685436,
+            "itemidx": 2,
+            "type": 9
+        }
+    ],
+    "has_more": 1
+}

@@ -1,0 +1,43 @@
+<div class="life">
+	<!-- 头部logo -->
+	<div class="life_header">
+		<img src="images/logo.png" class="life_header_img" onclick="history.back()">
+	</div>
+	<!-- 栏目名称 -->
+	<p class="life_diary">生活记</p>
+	<!-- 列表 -->
+	<div class="life_text_list">
+		<div class="life_text"  ng-repeat = "i in left">
+			<h3 class="life_list_h3">
+				<a class="life_list_h3_a">
+					{{i.menu}}
+				</a>
+			</h3>
+			<p class="life_time">
+				{{i.time}}
+			</p>
+			<div class="life_list_img">
+				<img class="life_list_img" lazy-src="{{i.img}}" src="images/loazcy.gif" data-error="images/404.jpg">
+			</div>
+			<p class="life_list_book">
+	        	{{i.bottom_book}}
+			</p>
+			<p class="life_list_p_bottom"><a href="" class="life_list_p_a">{{i.float}}</a></p>
+		</div>
+	</div>
+	<!-- 翻页工具 -->
+	<div class="life_page">
+		<a href="" class="life_page_up">上一页</a>
+		<a href="" class="life_pages life_pages_a">1</a>
+		<a href="" class="life_pages">2</a>
+		<a href="" class="life_pages">3</a>
+		<a href="" class="life_pages">4</a>
+		<a href="" class="life_pages">5</a>
+		<a href="" class="life_pages">6</a>
+		<a href="" class="life_pages">7</a>
+		<a href="" class="life_pages">8</a>
+		<a href="" class="life_pages">9</a>
+		<a href="" class="life_pages">10</a>
+		<a href="" class="life_page_down">下一页</a>
+	</div>
+</div>

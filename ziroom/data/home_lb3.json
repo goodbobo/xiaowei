@@ -1,0 +1,17 @@
+{
+    "info": "ok",
+    "data2": [
+        {
+           "id":"1",
+           "img":"http://pic.ziroom.com/static/upload/cms/2016/01/114c8f36feb9f30f5407e51fb4983dc6.jpg"
+        },
+        {
+           "id":"2",
+           "img":"http://pic.ziroom.com/static/upload/cms/2016/01/dc46f644a6c8821d82e179d606b9883c.jpg"
+        },
+        {
+           "id":"3",
+           "img":"http://pic.ziroom.com/static/upload/cms/2016/01/697a7b0121ad76477484f71e9500e6d5.jpg"
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+/*header{
+    display: none;
+}*/
+#ziroom  header{
+	height: 3.35rem;
+    line-height: 2.25rem;
+	display: flex;
+	padding: 0.5rem;
+	font-size: 1.5rem;
+	justify-content:space-between;
+	align-items:center;
+	background: #fff;
+}
+#ziroom  header img{
+	height: 1.2rem;
+	width: 1.8rem;
+
+}
+#ziroom .city_image{
+	/*height: 24rem;*/
+	position: relative;
+}
+#ziroom  main img{
+	display: block;
+}
+#ziroom  .title{
+	width: 16.8rem;
+    height: 6.1rem;
+    position: absolute;
+    left: 23.2%;
+    bottom: 2.45rem;
+}
+#ziroom  .title img{
+	opacity:1;
+	transition: opacity .5s ease-in;
+	width: 16.8rem;
+    height: 6.1rem;
+}
+#ziroom  .title_button{
+	position: absolute;
+    bottom: 0.8rem;
+    left: 43.9%;
+    font-size: 0.6rem;
+    text-align: center;
+    width: 3.5rem;
+    height: 1rem;
+    line-height: 1rem;
+    background: rgba(0,0,0,0.4);
+    border-radius: 0.6rem;
+    color: #dbc998;
+}
+#ziroom .b_copy{
+	padding: 0.75rem;
+    height: 5rem;
+    background: rgb(75, 75, 75);
+    color: #fff;
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+}
+/***轮播部分 **/
+.apartment img{
+    width: 100%;
+}
+/******* 地脚部分 *******/
+#ziroom .b_copy img{
+	display: inline-block;
+	height: 1.2rem;
+    width: 1.2rem;
+    margin: 0 4px;
+    vertical-align: middle;
+}
+#ziroom .top_icon{
+	width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    right: 0.5rem;
+    bottom: 5.5rem;
+    z-index: 99;
+}
+#ziroom .top_icon:after{
+	width: 2rem;
+    height: 2rem;
+    content: "";
+	display:inline-block;
+    background: url(../../images/up.gif) no-repeat center;
+    background-size: 50%;
+}

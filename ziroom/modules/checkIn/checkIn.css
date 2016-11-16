@@ -1,0 +1,153 @@
+.index_header{
+	display: none;
+}
+footer{
+	display: none;
+}
+#checkIn header{
+	height: 3.35rem;
+	display: flex;
+	padding: 0.5rem;
+	font-size: 1.5rem;
+	justify-content:space-between;
+	align-items:center;
+	background: #fff;
+}
+#checkIn header img{
+	height: 1.2rem;
+	width: 1.8rem;
+
+}
+#checkIn header i{
+	width: 1.1rem;
+	height: 2rem;
+	background: url(../../images/common.png);
+	background-size: 16rem 20rem;
+	background-position:-5.8rem 0;
+}
+#checkIn .swiper-container{
+	height: 20rem;
+}
+#checkIn .swiper-container img{
+	height: 20rem;
+	width:100%;
+}
+#checkIn .intro{
+	padding:1rem 0.5rem;
+	background: #fff;
+	border-bottom:1px solid #bbb;
+
+}
+#checkIn .intro li:first-of-type{
+	color:#111;
+	font-size: 0.9rem;
+}
+#checkIn .intro li:nth-of-type(2){
+	color:#bbb;
+	line-height: 1.9rem;
+	font-size: 0.7rem;
+}
+#checkIn .submit {
+	display: inline-block;
+    background: #d7c28b;
+    color: #fff;
+    width: 48.5%;
+    font-size: 1.1rem;
+    border-radius: 0.15rem;
+    height: 2.2rem;
+    line-height: 2.2rem;
+    text-align: center;
+}
+#checkIn .submitBtn{
+	border:0;
+	margin:0.5rem 0 0 0.4rem;
+}
+#checkIn .b_copy{
+	    padding: 0.75rem;
+    height: 5.5rem;
+    background: rgb(75, 75, 75);
+    color: #fff;
+    /* position: fixed; */
+    /* bottom: 0; */
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 1.9rem;
+    margin-top: -6.6rem;
+}
+#checkIn .b_copy img{
+	display: inline-block;
+	height: 1.2rem;
+    width: 1.2rem;
+    margin: 0 4px;
+    vertical-align: middle;
+}
+#checkIn .top_icon{
+	width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    text-align: center;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    right: 0.5rem;
+    bottom: 5.5rem;
+    z-index: 99;
+}
+#checkIn .top_icon:after{
+	width: 2rem;
+    height: 2rem;
+    content: "";
+	display:inline-block;
+    background: url(../../images/up.gif) no-repeat center;
+    background-size: 50%;
+
+}
+.checkIn{
+	height: 20rem;
+}
+.intro-font{
+	font-size: 0.8rem;
+	background: #fff;
+	color: #111;
+	padding: 1rem;
+	border-top:1px solid #ddd;
+	margin-top:1rem;
+}
+.intro-red{
+	float: right;
+	color:#ff3535;
+	font-size: 1.2rem;
+	margin-top: 0.2rem;
+}
+.intro-line{
+	display: inline-block;
+	height: 1rem;
+	vertical-align: middle;
+	border:1px solid #ddd;
+	margin:0 0.6rem;
+}
+
+/*****  设备控制 ******/
+.overview-device{
+	display: flex;
+	padding: 0 1rem 1rem 1rem;
+	flex-flow:wrap;
+	justify-content:space-between;
+	background: #fff;
+	margin-bottom: 8rem;
+	border-top:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+}
+.top{
+	margin-top: 0.2rem;
+}
+.overview-device  li{
+	width: 25%;
+	text-align: center;
+}
+.device-img{
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+	border: 1px solid #ddd;
+	margin: 1rem auto 0.5rem;
+}

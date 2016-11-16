@@ -1,0 +1,74 @@
+.ui-footer{
+	display: none;
+}
+#ziroomLife .ziroomLife_header .swiper-container .swiper-wrapper .swiper-slide .img{
+	width: 100%;
+	height: 11rem;
+	background-size: cover;
+	background-position: 0px -70px;
+}
+#ziroomLife .ziroomLife_header .swiper-container .swiper-wrapper .swiper-slide{
+	position: relative;
+}
+#ziroomLife .ziroomLife_header .swiper-container .swiper-wrapper .swiper-slide .desc{
+	position: absolute;
+	bottom: 1.5rem;
+	font-size: 1.2rem;
+	left: 2rem;
+	color: #fff;
+}
+#ziroomLife .ziroomLife_nav ul li{
+	display: inline-block;
+	width: 24%;
+	height: 65px;
+	line-height: 65px;
+	font-size: 21px;
+	text-align: center;
+}
+#ziroomLife .ziroomLife_nav ul li:hover{
+	color: green;
+	background-color: rgba(180,180,180,0.22);
+}
+#ziroomLife .ziroomLife_list ul{
+	background-color: #fff;
+}
+#ziroomLife .ziroomLife_list ul li{
+	display: flex;
+	/*display: block;*/
+    padding: 15px 15px 10px 10px;
+    overflow: hidden;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+}
+#ziroomLife .ziroomLife_list ul li .cover{
+	/*float: left;*/
+    margin-right: 10px;
+}
+#ziroomLife .ziroomLife_list ul li .cover img{
+    width: 120px;
+    height: 100px;
+}
+#ziroomLife .ziroomLife_list ul li .cont{
+	/*overflow:hidden;*/
+	/*float: left;*/
+}
+#ziroomLife .ziroomLife_list .cont h2{
+    font-weight: 400;
+    font-size: 21px;
+    color: #000;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+#ziroomLife .ziroomLife_list .cont p{
+    font-size: 21px;
+    color: #999;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 1.3;	
+}

@@ -1,0 +1,17 @@
+{
+    "status": "0",
+    "message": null,
+    "data": [{
+        "id": 24,
+        "logicCode": "101010141000000",
+        "categoryCode": "10101014",
+        "productName": "空调清洗",
+        "productPrice": 89,
+        "productRemark": "特惠活动需提前预约",
+        "cityCode": "110000",
+        "isFast": 1,
+        "productSlogan": null,
+        "imgAlt": null,
+        "imgUrl": "http://s.m.ziroom.com/static/maintainance/serve/productImg/101010141000000.jpg"
+    }]
+}

@@ -1,0 +1,151 @@
+html{
+	background: #fff;
+}
+.enter_html{
+	background: #fff
+}
+.index_header{
+	display: none;
+}
+/*框架设置*/
+footer{
+	display: none;
+}
+.enter{
+	background: #fff;
+}
+.enter_all{
+	width: 70%;
+	margin: auto;
+}
+.enter_header{
+	font-size: 2.5rem;
+}
+/*密码框*/
+.enter_input{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	width: 100%;
+	padding: 5% 0;
+	color: #444444;
+	font-size: 1.5rem;
+}
+.enter_import_li{
+	position: relative;
+}
+.enter_eyes{
+	display: block;
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+	top: 30%;
+	right: 0px;
+	background: url('../../images/eyes.png') no-repeat;
+	background-size: cover;
+}
+.enter_eyes1{
+	display: block;
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+	top: 30%;
+	right: 0px;
+	background: url('../../images/eyes.png') no-repeat;
+	background-position: -35px 0;
+}
+
+/*标题*/
+.enter_header{
+	margin: 25% 0;
+}
+
+/*登录问题*/
+.enter_lgo_a{
+	overflow: hidden;
+	margin: 20% 0;
+}
+.enter_log_yz{
+	font-size: 0.9rem;
+}
+.enter_log_yz_c{
+	font-size: 2rem;
+	color:#ffa000;
+	float: right;
+}
+.enter_log_yz_a,enter_log_yz_b{
+	line-height: 2.7rem;
+}
+.enter_log_yz_a{
+	padding-right: 4%;
+	border-right: 1px solid #bbb;
+}
+.enter_log_yz_b{
+	padding-left: 4%
+}
+/*注册切换按钮*/
+.enter_lgo_sign{
+	text-align: center;
+	line-height: 10rem;
+	font-size: 0.9rem;
+}
+.enter_sign{
+	color: #ffa000;
+}
+
+
+/*定义动画效果*/
+@keyframes fade{
+	0% {
+    	opacity: 0;
+    	transform: translate3d(0,100%,0);
+	};
+	100%{
+		opacity: 1;
+		transform: none;
+	}
+}
+@keyframes line{
+	0%{width: 0px;background:#ffa000;}
+	100%{width: 100%;background: #ffa000;}
+}
+@keyframes noneAn{
+	0%{width: 100%;background: #ffa000;margin: 0 auto;}
+	100%{width: 0px;background: #ffa000;margin: 0 auto;}
+}
+.enter_header{
+	animation: fade .3s 1;
+}
+.enter_import_li{
+	animation: fade .5s 1;
+	margin-bottom: 3%;
+}
+.enter_lgo_a{
+	animation: fade .7s 1;
+}
+.enter_lgo_sign{
+	animation: fade .9s 1;
+}
+/*点击事件后加载动画*/
+.enter_line{
+	width: 100%;
+	height: 2px;
+	margin: 0 auto;
+	animation: line 1s;
+}
+.enter_line_1{
+	width: 100%;
+	height: 5px;
+	margin: 0 auto;
+	background: #ffa000;
+}
+.enter_none{
+	width: 100%;
+	height: 5px;
+	margin: 0 auto;
+	animation: noneAn 1s;
+}
+.enter_none1{
+	width: 0px;
+	height: 0px;
+}

@@ -1,0 +1,164 @@
+.index_header{
+	display: none;
+}
+footer{
+	display: none;
+}
+#watchRoom header{
+	height: 3.15rem;
+	display: flex;
+	padding: 0.5rem;
+	font-size: 1.5rem;
+	justify-content:space-between;
+	align-items:center;
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+}
+#watchRoom header img{
+	height: 1.2rem;
+	width: 1.8rem;
+
+}
+#watchRoom header i{
+	width: 1.1rem;
+	height: 2rem;
+	background: url(../../images/common.png);
+	background-size: 16rem 20rem;
+	background-position:-5.8rem 0;
+}
+#watchRoom .b_copy{
+	padding: 0.75rem;
+    height: 5.4rem;
+    background: rgb(75, 75, 75);
+    color: #fff;
+    line-height: 1.9rem;
+    width: 100%;
+    font-size: 1.2rem;
+}
+#watchRoom .b_copy img{
+	display: inline-block;
+	height: 1.2rem;
+    width: 1.2rem;
+    margin: 0 4px;
+    vertical-align: middle;
+}
+
+
+/******* 遮罩 ******/
+#watchRoom .shade{
+	width: 100%;
+	position: absolute;
+	background: rgba(0,0,0,0.5);
+	height: 60%;
+	z-index: 5;
+}
+#watchRoom .shade-in{
+	border-radius: 0.5rem;
+	background: #fff;
+	z-index: 5;
+	width: 50%;
+	margin:1rem auto;
+	padding:1rem 1rem 0.5rem 1rem;
+}
+#watchRoom .shade-in li{
+	font-size: 1rem;
+	line-height: 2rem;
+}
+#watchRoom .shade-in li.ui-dialog-ft{
+	color:#d7c28b;
+	text-align: center;
+
+}
+#watchRoom .shade .exit{
+	width: 13.5rem;
+	height: 5rem;
+	border-radius: 0.5rem;
+	background: #fff;
+	font-size: 0.8rem;
+	margin:10rem auto;
+}
+#watchRoom .shade .exit p{
+	text-align: center;
+	color: #111;
+	height: 3rem;
+	line-height: 3rem;
+	border-bottom: 1px solid #ddd;
+}
+#watchRoom .shade .exit ul{
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+#watchRoom .shade .exit ul li{
+	flex:1;
+	color:#d7c28b;
+	text-align: center;
+	line-height: 2rem;
+}
+
+
+
+#watchRoom main ul{
+	margin-top: 0.8rem;
+	height: 3.1rem;
+	line-height: 2rem;
+	background: #fff;
+}
+#watchRoom main ul li,#watchRoom main ul li input{
+	font-size: 1.2rem;
+
+}
+#watchRoom main .watchRoom-order{
+	height: 3rem;
+	margin-top: 1.4rem
+}
+#watchRoom .watchRoom-order li{
+    text-align: center;
+    color:#d7c28b;
+    width: 8rem;
+    padding: 0.5rem;
+    border-bottom: 2px solid #d7c28b;
+    margin: 0 auto;
+}
+#watchRoom main button{
+	color:#fff;
+	font-size: 1.2rem;
+	text-align: center;
+	height: 4rem;
+	line-height: 4rem;
+	border: 0;
+	border-radius: 0.2rem;
+	display: block;
+	margin: 1.7rem auto;
+	width: 95%;
+	background: #d7c28b;
+}
+#watchRoom .watchRoom-in{
+	display: flex;
+	padding: 0.5rem 2rem 0.5rem 1rem;
+	background: #fff;
+	position: relative;
+} 
+#watchRoom .input-name{
+	width: 23%;
+	text-align: left;
+}
+#watchRoom .tab-watch-rightRow{
+	width:1rem;
+	height: 1.8rem;
+	background: url(../../images/common.png);
+	background-position: 0 -0.5rem;
+	position: absolute;
+	right:0.8rem;
+	top:28%;
+}
+#watchRoom .watchRoom-input{
+	display: flex;
+	padding: 0.5rem 2rem 0.5rem 1rem;
+	background: #fff;
+}
+#watchRoom input{
+	border: 0;
+	outline: 0;
+	font-size: 0.8rem;
+}

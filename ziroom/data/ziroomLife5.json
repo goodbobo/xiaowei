@@ -1,0 +1,38 @@
+{
+    "base_resp": {
+        "ret": 0
+    },
+    "appmsg_list": [
+        {
+            "aid": "403465037_1",
+            "title": "业主故事|我将房屋空了十年，直到遇见自如",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGZ091615462/BJZRGZ091615462_01/images/v400x300_20161011003623598.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=403465037&idx=1&sn=720e86ee19f2122911dbfc6f995f690b&scene=19#wechat_redirect",
+            "digest": "周先生的房子空了十年，直到遇见自如。",
+            "appmsgid": 403465037,
+            "itemidx": 1,
+            "type": 9
+        },
+        {
+            "aid": "209388124_1",
+            "title": "【业主故事】29岁狮子座业主的霸气抉择",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGZ091622506/BJZRGZ091622506_01/images/v400x300_20161108190614324_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=209388124&idx=1&sn=d909d3aac150727d0db686627d4a8658&scene=19#wechat_redirect",
+            "digest": "感谢您的信任，我们定努力不负所托，做您的好朋友、好管家，和您一起让生活多一些自如。",
+            "appmsgid": 209388124,
+            "itemidx": 1,
+            "type": 9
+        },
+        {
+            "aid": "400191725_2",
+            "title": "【业主故事】陪伴儿子时间最长的那间房",
+            "cover": "http://pic.ziroom.com/house_images/BJZRGZ091619245/BJZRGZ091619245_01/images/v400x300_20161024105516018_F.JPG",
+            "link": "http://mp.weixin.qq.com/s?__biz=MzAxMDM2Mzc4Mg==&mid=400191725&idx=2&sn=6942d05f0af5d9ee9ff23266ef23ee73&scene=19#wechat_redirect",
+            "digest": "业主故事陪伴儿子时间最长的那间房“嘿，你别说，住了那么久的房子，突然这么一变，就跟从不化妆的老婆突然化了个妆",
+            "appmsgid": 400191725,
+            "itemidx": 2,
+            "type": 9
+        }
+    ],
+    "has_more": 0
+}

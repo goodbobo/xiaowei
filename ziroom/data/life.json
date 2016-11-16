@@ -1,0 +1,54 @@
+{
+    "info": "ok",
+    "left": [
+        {
+           "id":"1",
+           "menu":"光棍节不孤单《奇异博士》包场看",
+           "time":"2016-11-14 14:30:40",
+           "img":"http://www.ziroom.com/static/upload/cms/2016/11/c269624a07f4092e251b5e4a3f2ee0ee.jpg",
+           "bottom_book":"自如客lub让双十一回归本质，我们邀请了60位单身自如客，包场来看长腿卷福奇异博士。……",
+            "float":"阅读详情>>"
+        },
+        {
+           "id":"2",
+           "menu":"自如五周年我们的家，60万人的青春故事",
+           "time":"2016-10-18 10:00:25",
+           "img":"http://www.ziroom.com/static/upload/cms/2016/10/a86d1ae680b30c3c7605060e527081a3.jpg",
+           "bottom_book":"今天，自如5岁了。5年来，自如全力向前，只为更多人能够早日与理想生活相遇……",
+            "float":"阅读详情>>"
+        },
+        {
+           "id":"3",
+           "menu":"自如生活节创业专场北京第二场，和Someet聊聊攒局那些事",
+           "time":"2016-10-15 15:55:36",
+           "img":"http://www.ziroom.com/static/upload/cms/2016/10/9c18d558779101d104f5311bdd266f33.jpg",
+           "bottom_book":"连上七天班的无力怎么破？我们和攒局专家someet的CEO小白来了一次亲密接触。……",
+            "float":"阅读详情>>"
+        },
+        {
+           "id":"4",
+           "menu":"自如驿以书换宿以书换宿 | 三本书，就能免费入住自如驿",
+           "time":"2016-10-12 16:46:21",
+           "img":"http://www.ziroom.com/static/upload/cms/2016/10/dda8b392a9fab726857722b72f23e839.png",
+           "bottom_book":"以书换宿……",
+            "float":"阅读详情>>"
+        },
+        {
+           "id":"5",
+           "menu":"自如生活节运动专场北京站第一场，朝阳公园打怪兽",
+           "time":"2016-10-09 17:05:42",
+           "img":"http://www.ziroom.com/static/upload/cms/2016/10/3ad80e9afee4e7e29a10f741d70571a2.jpg",
+           "bottom_book":"传说中超容易跑乱的朝阳公园隐藏地图，自如跑团带你解锁……",
+            "float":"阅读详情>>"
+        },
+        {
+           "id":"6",
+           "menu":"自如生活节创客分享第一场给你生活的另一种可能",
+           "time":"2016-10-09 09:45:01",
+           "img":"http://www.ziroom.com/static/upload/cms/2016/10/b432c016992170cd1879878c927054ac.jpg",
+           "bottom_book":"摩托邦、乐童音乐、无二之旅，创造生活新秩序，他们是这样做到的。……",
+            "float":"阅读详情>>"
+        }
+        
+    ]
+}

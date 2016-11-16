@@ -1,0 +1,114 @@
+<!-- 自如网站合作项目  -->
+<!-- YZTC-Html5-1612-05组 -->
+<!-- 自如网站合作项目成员:毛晓伟,聂恒亚,黄梦蛟,高飞雪,柴欣媛。 -->
+<!DOCTYPE html>
+<html ng-app="ziroom">
+<head>
+    <meta charset="UTF-8">
+    <title>自如</title>
+    <meta name="viewport" content="width = 640,user-scalable = no,target-densitydpi=device-dpi">
+    <link rel="icon" href="//static8.ziroom.com/phoenix/pc/images/common/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/commen.css">
+    <script src="./lib/jquery.min.js"></script>
+    <script src="./lib/angular.min.js"></script>
+    <script src="./lib/angular-ui-router.js"></script>
+    <script src="./lib/angular-css.min.js"></script>
+    <script src="./lib/swiper.min.js"></script>
+    <script src="./lib/index.js"></script>
+    <script src="./lib/me-lazyload.js"></script>
+</head>
+<body>
+    <header class="index_header">
+        <div class="index_header_left">
+            <span class="index_header_span"  ui-sref="city">北京</span>
+            <b class="index_rot_bottom"></b>
+        </div>
+        <div class="index_header_center">
+            <input class="index_address" type="text"  ui-sref="inSearch" placeholder="请输入您想住的区域或小区">
+        </div>
+        <div class="index_right" >
+            <a class="index_my"></a>
+        </div>
+    </header>
+    <div class="container">
+        <div ui-view></div>
+    </div>
+    <footer class="ui-footer">
+        <ul class="ui-grid-trisect">
+            <li class="computer">
+                <a href="">
+                    <span class="icon"></span>
+                    电脑版
+                </a>
+            </li>
+            <li class="touch">
+                <a href="">
+                    <span class="icon"></span>
+                    触屏版
+                </a>
+            </li>
+            <li class="client">
+                <a href="">
+                    <span class="icon"></span>
+                    客户端
+                </a>
+            </li>
+        </ul>
+        <div class="logo">
+            <span class="icon"></span>
+        </div>
+        <div class="links">
+            <a ui-sref="home">首页</a>
+            <a ui-sref="joinRent">自如找房</a>
+            <a ui-sref="download">下载自如APP</a>
+        </div>
+        <p class="cotyright">Copyright@2015 ziroom.com</p>
+    </footer>
+    <div class="index_shade">
+        <ul class="index_shade_ul">
+            <li class="shade_li shade_li1" ui-sref="enter">登录</li>
+            <li class="shade_li" ui-sref="home">首页</li>
+            <li class="shade_li" ui-sref="joinRent">自如看房</li>
+        </ul>
+    </div>
+    <script src="app.js"></script>
+    <script src="./modules/home/home.js"></script>
+    <script src="./modules/enter/enter.js"></script>
+    <script src="./modules/sgin/sgin.js"></script>
+    <script src="./modules/order/order.js"></script>
+    <script src="./modules/city/city.js"></script>
+    <script src="./modules/inSearch/inSearch.js"></script>
+    <script src="./modules/joinRent/joinRent.js"></script>
+    <script src="./modules/holeRent/holeRent.js"></script>
+    <script src="./modules/mouthRent/mouthRent.js"></script>
+    <script src="./modules/apartment/apartment.js"></script>
+    <script src="./modules/owner/owner.js"></script>
+    <script src="./modules/service/service.js"></script>
+    <script src="./modules/life/life.js"></script>
+    <script src="./modules/download/download.js"></script>
+    <script src="./modules/apartmentDetail/apartmentDetail.js"></script>
+    <script src="./modules/details/details.js"></script>
+    <script src="./modules/watchRoom/watchRoom.js"></script>
+    <script src="./modules/checkIn/checkIn.js"></script>
+    
+    <script src="./modules/dailyClear/dailyClear.js"></script>
+    <script src='./modules/smallMove/smallMove.js'></script>
+    <script src='./modules/ziruRepair/ziruRepair.js'></script>
+    <script src='./modules/consult/consult.js'></script>
+    <script src='./modules/deepClear/deepClear.js'></script>
+    <script src='./modules/openClear/openClear.js'></script>
+    <script src='./modules/killClear/killClear.js'></script>
+    <script src='./modules/unlocking/unlocking.js'></script>
+    <script src='./modules/waterpipe/waterpipe.js'></script>
+    <script src='./modules/lamp/lamp.js'></script>
+    <script src='./modules/moreRepair/moreRepair.js'></script>
+
+    <script src='./modules/understandZiroom/understandZiroom.js'></script>
+    <script src='./modules/priceZiroom/priceZiroom.js'></script>
+    <script src='./modules/timeService/timeService.js'></script>
+    <script src='./modules/Trust/Trust.js'></script>
+    <script src='./modules/ownerDecoration/ownerDecoration.js'></script>
+    <script src='./modules/ziroomlife/ziroomlife.js'></script>
+</body>
+</html>

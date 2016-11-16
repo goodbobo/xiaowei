@@ -1,0 +1,89 @@
+*{
+	padding: 0;margin: 0;
+}
+body{
+	font-size: 125%;
+	background: #FFFFFF;
+}
+/*.index_header{
+	display: none;
+}*/
+.ui-footer{
+	display: none;
+}
+/*客服咨询*/
+.consult_head{
+	position: fixed;
+	top: 8.2%;
+	width: 100%;
+	height: 3rem;
+	background: #FFA000;
+	display: flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.consult_head div{
+	display: inline-block;
+	font-size: 1.3rem;
+}
+.consult_head div img{
+	width: 1.3rem;
+}
+.consult_head div:nth-of-type(1){
+	margin-left: 1.5rem;
+}
+.consult_head div:nth-of-type(3){
+	margin-right: 1.5rem;
+}
+.consult_main{
+	width: 100%;
+	height: 100rem;
+	background:#F4F7FA;
+	overflow-y: scroll;
+
+}
+.consult_foot{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 3rem;
+	background: pink;
+
+}
+.consult_foot img{
+	width: 1.3rem;
+	height: 1.3rem;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 1.5rem;
+	margin-top: 1rem;
+
+}
+.consult_foot>div{
+	width: 70%;
+	height: 2rem;
+	background: #fff;
+	border: 1px solid #999;
+	border-radius: 0.5rem;
+	display: inline-block;
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+	background: url(../../images/con4.gif) no-repeat;
+	background-size:1.2rem;
+	background-position: 20rem 0.5rem; 
+}
+.consult_foot>div>input{
+	border: none;
+	margin-left: 1rem;
+	margin-top: 0.3rem;
+}
+.consult_foot_p{
+	display: inline-block;
+	width: 4rem;
+	height: 2rem;
+	background: #CCCCCC;
+	text-align: center;
+	line-height: 2rem;
+	margin-left: 1rem;
+	margin-top: 0.2rem;
+}

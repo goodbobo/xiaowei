@@ -1,0 +1,136 @@
+<div id="ziroomDetail">
+    <header><i onclick="history.back()"></i>自如寓详情<img src="images/home.png" alt=""></header>
+    <!-- 轮播图部分 -->
+    <div class="apartmentDetail">
+        <div class="swiper-container">
+            <div class="swiper-wrapper" >
+                <div class="swiper-slide"><img src="http://pic.ziroom.com/apartment/upload/20160928/1475053028790-gqzhuoyou.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="http://pic.ziroom.com/apartment/upload/20160928/1475053028790-gqzhuoyou.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="http://pic.ziroom.com/oa/upload/upload/20160608/66471465380079866.jpg" alt=""></div>                
+            </div>  
+            <!-- 如果需要分页器 -->
+            <div class="swiper-pagination"></div>
+            <!-- 如果需要导航按钮 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>    
+            <!-- 如果需要滚动条 -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </div>
+
+    <main>
+        <ul class="intro">
+            <li>上海交大启灵自如寓</li>
+            <li>欢乐城邦,启航之寓（咨询时间为9:00-19:00）</li>
+            <li>
+              <a ui-sref="apartmentDetail" class="submit">电话咨询</a>
+              <button class="submit submitBtn" ui-sref="watchRoom">看房/入住</button>
+            </li>
+        </ul>
+        <div class="ui-tab">
+            <ul class="tab-title">
+              <li ng-click="show1()">查看房形</li>
+              <li ng-click="show2()">项目概述</li>
+            </ul>
+            <div class="tab-watch" ng-show="myVar">
+              <ul class="tab-watch_1" ui-sref="checkIn">
+                <li><img src="images/w1.jpg"alt=""></li>
+                <li class="tab-intro">
+                  <h2>个人单元</h2>
+                  <p>开间&nbsp;&nbsp;&nbsp;&nbsp;28㎡</p>
+                  <p>既能独享私密，又能自由畅聊</p>
+                </li>
+                <li class="tab-watch-rightRow"></li>
+
+              </ul>
+              <ul class="tab-watch_2" ui-sref="checkIn">
+                <li><img src="images/w2.jpg" alt=""></li>
+                <li class="tab-intro">
+                      <h2>EK-A</h2>
+                      <p>开间&nbsp;&nbsp;&nbsp;&nbsp;28㎡</p>
+                      <p>精妙双层空间，超大景观阳台</p>
+                </li>
+                <li class="tab-watch-rightRow"></li>
+
+              </ul>
+            </div>
+           <div class="tab-overview" ng-hide="myVar">
+              <div class="ui-nowrap-multi">
+                  “自如”旗下五年匠心倾注，打造上海最大规模自如寓，独享9000平米超大园区，可同时容纳1700位自如客居住，打造专属年轻人的欢乐城邦。毗邻上海交通大学闵行校区，地铁5号线直达徐家汇。“启航号”巴士直达地铁站及周边商圈，连接都市内核。
+              </div>
+              <div class="arrow-down"></div>
+              <ul>
+                <li class="overview-img">
+                    <img src="http://pic.ziroom.com/apartment/upload/20161006/1475743165060-万乐城.jpg" alt="" width="auto" height="170px">
+                </li>
+                <li class="overview-font">万乐城</li>
+                <li class="overview-img">
+                    <img src="http://pic.ziroom.com/apartment/upload/20161006/1475743174169-紫竹科学园.jpg" alt="" width="auto" height="170px">
+                </li>
+                <li class="overview-font">紫竹科学园</li>
+                <li class="overview-img">
+                    <img src="http://pic.ziroom.com/apartment/upload/20161006/1475743150699-上海交大闵行校区.jpg" height="170px" alt="">
+                </li>
+                <li class="overview-font">上海交大闵行校区</li>
+              </ul>
+              <a href="#" class="overview-map">查看地图</a>
+              <ul class="overview-device">
+              <li>
+                 <div class="device-img">
+                    <img src="images/service_zry_03.png" alt="">
+                 </div>
+                 <p>24h安保</p>
+              </li>
+              <li>
+                 <div class="device-img">
+                    <img src="images/service_zry_05.png" alt="">
+                 </div>
+                 <p>专属管家</p>
+              </li>
+              <li>
+                 <div class="device-img">
+                    <img src="images/service_zry_07.png" alt="">
+                 </div>
+                 <p>维修保证</p>
+              </li>
+              <li>
+                 <div class="device-img">
+                    <img src="images/service_zry_09.png" alt="">
+                 </div>
+                 <p>代收快递</p>
+              </li>
+              <li>
+                 <div class="device-img">
+                    <img src="images/service_icon_03.png"  alt="">
+                 </div>
+                 <p>整体卫浴</p>
+              </li>
+              <li>
+                 <div class="device-img">
+                    <img src="images/service_icon_25.png"  alt="">
+                 </div>
+                 <p>原创家具</p>
+              </li>
+              <li>
+                 <div class="device-img">
+                    <img src="images/service_zry_15.png"  alt="">
+                 </div>
+                 <p>WIFI覆盖</p>
+              </li>
+              <li>
+                 <div class="device-img">
+                    <img src="images/service_zry_16.png" alt="">
+                 </div>
+                 <p>定制活动</p>
+              </li>
+              </ul>
+           </div>
+        </div>
+    </main>
+    <div class="b_copy">
+          关注我们&nbsp;:
+          <img src="images/icon_01.png">
+          <img src="images/icon_02.png">  <br/>              
+          @2015 ziroom.com 京ICP备11024601号-9               
+    </div>
+</div>

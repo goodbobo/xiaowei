@@ -1,0 +1,56 @@
+{
+    "status": "0",
+    "message": null,
+    "data": [{
+        "id": 1,
+        "logicCode": "101010101000000",
+        "categoryCode": "10101010",
+        "productName": "灯",
+        "productPrice": 29,
+        "productRemark": "自如工匠快速还您一片光明",
+        "cityCode": "110000",
+        "isFast": 1,
+        "productSlogan": null,
+        "imgAlt": null,
+        "imgUrl": "http://s.m.ziroom.com/static/maintainance/serve/productImg/101010101000000.jpg"
+    },
+    {
+        "id": 2,
+        "logicCode": "101010101000001",
+        "categoryCode": "10101010",
+        "productName": "插座开关",
+        "productPrice": 19,
+        "productRemark": "小插座大危险；守护家人安全",
+        "cityCode": "110000",
+        "isFast": 1,
+        "productSlogan": null,
+        "imgAlt": null,
+        "imgUrl": "http://s.m.ziroom.com/static/maintainance/serve/productImg/101010101000001.jpg"
+    },
+    {
+        "id": 3,
+        "logicCode": "101010101000002",
+        "categoryCode": "10101010",
+        "productName": "线路",
+        "productPrice": 59,
+        "productRemark": "专业检修，杜绝安全隐患",
+        "cityCode": "110000",
+        "isFast": 1,
+        "productSlogan": null,
+        "imgAlt": null,
+        "imgUrl": "http://s.m.ziroom.com/static/maintainance/serve/productImg/101010101000002.jpg"
+    },
+    {
+        "id": 4,
+        "logicCode": "101010101000003",
+        "categoryCode": "10101010",
+        "productName": "卫浴灯",
+        "productPrice": 69,
+        "productRemark": "品牌配件，更节能更舒心",
+        "cityCode": "110000",
+        "isFast": 1,
+        "productSlogan": null,
+        "imgAlt": null,
+        "imgUrl": "http://s.m.ziroom.com/static/maintainance/serve/productImg/101010101000003.jpg"
+    }]
+}

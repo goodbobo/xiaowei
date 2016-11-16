@@ -1,0 +1,75 @@
+<div id="watchRoom">
+    <div class="shade" ng-show="flag">
+        <ul class="shade-in" ng-show="flag">
+          <li>
+            l  关于身份，我们需要您的中国身份证（非中国国籍客户持护照亦可），这是您申请和办理入住的象征，当然，我们保证您的个人信息不用于其他用途，请放心填写；
+            <br/>
+            l  为了这个社区更自如，我们希望可以彼此尊重、信守诺言、有公德心；
+            <br/>
+            l  我们会第一时间对您的申请入住信息进行审核，但这个过程仍需要1-3个工作日，请耐心等待。
+            
+          </li>
+          <li class="ui-dialog-ft" ng-click="applyFor()">以了解，去申请</li>
+        </ul>
+    </div>
+    <div class="shade" ng-hide="flagTwo">
+        <div class="exit" ng-hide="flagTwo">
+            <p>退出申请</p>
+            <ul>
+              <li ng-click="flagTwo=!flagTwo">取消</li>
+              <li onclick="history.back()">确定</li>
+            </ul>
+        </div>
+    </div>
+    <header><i ng-click="hback()"></i>看房<img src="images/home.png" alt=""></header>
+    <main>
+      <ul class="watchRoom-order">
+         <li>预约看房</li>
+      </ul>
+      <ul class="watchRoom-in">
+        <li class="input-name">公寓</li>
+        <li>上海交大其灵自如寓</li>
+        <li class='tab-watch-rightRow'></li>
+      </ul>
+      <ul class="watchRoom-in">
+        <li class="input-name">房型</li>
+        <li>个人生活</li>
+        <li class='tab-watch-rightRow'></li>
+      </ul>
+      <ul class="watchRoom-input">
+        <li class="input-name">姓名</li>
+        <li>
+          <input type="text" placeholder='请输入您的真实姓名'/>
+        </li>
+      </ul>
+      <ul class="watchRoom-in">
+        <li class="input-name">国籍</li>
+        <li>中国</li>
+        <li class='tab-watch-rightRow'></li>
+      </ul>
+       <ul class="watchRoom-input">
+        <li class="input-name">手机号码</li>
+        <li>
+          <input type="text" placeholder='请输入联系人电话'/>
+        </li>
+      </ul>
+       <ul class="watchRoom-input">
+        <li class="input-name">工作单位</li>
+        <li>
+          <input type="text" placeholder='请输入工作单位'/>
+        </li>
+      </ul>
+       <ul class="watchRoom-input">
+        <li class="input-name">约看时间</li>
+      </ul>
+      <button>提交</button>
+      
+    </main>
+
+    <div class="b_copy">
+          关注我们&nbsp;:
+          <img src="images/icon_01.png">
+          <img src="images/icon_02.png">  <br/>              
+          @2015 ziroom.com 京ICP备11024601号-9               
+    </div>
+</div>
